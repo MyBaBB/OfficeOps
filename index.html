@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="google-site-verification" content="0nm9pxZd_zFa1XsJB2Mi4msS95V46ShscaTZBFTmHXM" />
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+    <meta http-equiv="Cache-Control" content="max-age=604800" />
+<link rel="preload" href="favicon11.png" as="image">
+<link rel="preload" href="favicon22.png" as="image">
+<link rel="preload" href="favicon33.png" as="image">
+    <link id="favicon" rel="icon" href="favicon11.png" type="image/x-icon">
+
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Expert technical support and Office Operations. Schedule an appointment or reach out for assistance.">
+  <meta name="keywords" content=" Office Operations, Excel support, Word troubleshooting, PowerPoint help, Outlook assistance, technical support,  Adobe Creative Cloud, Microsoft 365, Google Workspace, IT support, software troubleshooting, productivity tools, remote assistance ">
+  <meta name="author" content="Office_Ops Team">
+  <meta name="robots" content="index, follow">
+
+  <title>Office_Ops </title>
+
+  <!-- Open Graph for social media -->
+  <meta property="og:title" content="Office_Ops • Expert Office Operations & Technical Support">
+  <meta property="og:description" content="Get expert assistance in Office Operations, Microsoft 365, Adobe Creative Cloud, and technical support. Schedule an appointment or email us when you're stuck!">
+  <meta property="og:image" content="https://images.brainbuddys.com/ogProtocol/Brain35Buddy2Star1200x630.png">
+  <meta property="og:type" content="website">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Expert Office Operations & Technical Support">
+  <meta name="twitter:description" content="Get expert assistance in Office Operations, Microsoft 365, Adobe Creative Cloud, and technical support. Schedule an appointment or email us when you're stuck!">
+  <meta name="twitter:image" content="https://images.brainbuddys.com/ogProtocol/Brain35Buddy2Star1200x630.png">
+</head>
+  
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"> </script>  
+  </body>  
+   <script>
+  const favicons = ["favicon11.png", "favicon22.png", "favicon33.png"];
+  let current = 0;
+
+  function flicker() {
+    const link = document.getElementById("favicon");
+    current = (current + 1) % favicons.length;
+    link.href = favicons[current];
+
+    // Random delay between 300ms and 3000ms
+    const delay = Math.floor(Math.random() * (3000 - 300 + 1)) + 300;
+    setTimeout(flicker, delay);
+  }
+
+  flicker(); // Start the flicker loop
+</script>
+ 
+ 
+</html>
