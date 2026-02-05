@@ -6,7 +6,7 @@
   scroll-behavior: smooth;
 }
 
-@font-face {
+/* @font-face {
   font-family: "Archivo_Black";
   src: url(../GoogleFonts/ArchivoBlack-Regular.ttf);
 }
@@ -207,4 +207,4 @@
 @font-face {
   font-family: "Yellowtail-Regular";
   src: url(../GoogleFonts/Yellowtail-Regular.ttf);
-}
+} */
