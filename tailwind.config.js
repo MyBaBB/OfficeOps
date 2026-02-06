@@ -7,13 +7,6 @@ export default {
   ],
 
 
- 
-
-
-
-
-
-
   theme: {
     extend: {
       

@@ -7,12 +7,12 @@ export default function OfficeOpsPage() {
       {/* HEADER */}
       <header className="w-full sticky top-0 z-50 border-b border-slate-800 bg-slate-950/90 backdrop-blur">
         <div className="mx-auto max-w-6xl px-4 py-5 flex items-center justify-between">
-          <h1 className="text-xl font-semibold tracking-tight">
+          <h1 className="text-xl xl:text-3xl font-semibold tracking-tight">
             OfficeOps • Microsoft 365 + Adobe Creative Cloud Support
           </h1>
           <a
             href="#rates"
-            className="rounded-full bg-indigo-500 px-4 py-2 text-xs font-semibold hover:bg-indigo-400"
+            className="rounded-full bg-indigo-500 px-4 py-2 text-xs xl:text-base font-semibold hover:bg-indigo-400"
           >
             Hourly Rates
           </a>
@@ -24,10 +24,10 @@ export default function OfficeOpsPage() {
 
         {/* INTRO */}
         <section className="max-w-3xl space-y-4">
-          <h2 className="text-3xl font-semibold tracking-tight">
+          <h2 className="text-3xl xl:text-4xl text-center font-semibold tracking-tight">
             Professional office support when you need it.
           </h2>
-          <p className="text-slate-300 text-sm leading-relaxed">
+          <p className="text-slate-300 text-sm xl:text-base leading-relaxed">
             I provide on-demand office help using Microsoft 365 and Adobe
             Creative Cloud. Whether you need documents cleaned up, spreadsheets
             fixed, graphics created, or presentations rebuilt, I handle the work
@@ -38,10 +38,10 @@ export default function OfficeOpsPage() {
 
         {/* TALENTS SECTION */}
         <section className="space-y-6 border-t border-slate-800 pt-10">
-          <h3 className="text-xl font-semibold tracking-tight">
+          <h3 className="text-xl xl:text-2xl font-semibold tracking-tight">
             What I Can Do For You (OfficeOps Capabilities)
           </h3>
-          <p className="text-sm text-slate-300 max-w-3xl">
+          <p className="text-sm xl:text-base   text-slate-300 max-w-3xl">
             These are the real, practical skills I bring to your business using 
             Microsoft 365 and Adobe Creative Cloud. Everything below is hands-on, 
             production-ready support that keeps your office running smoothly and 
@@ -52,10 +52,10 @@ export default function OfficeOpsPage() {
 
             {/* MICROSOFT 365 TALENTS */}
             <div className="rounded-xl border border-slate-800 bg-slate-900/60 p-5 space-y-3">
-              <h4 className="text-sm font-semibold text-slate-100">
+              <h4 className="text-sm  xl:text-lg font-semibold text-slate-100">
                 Microsoft 365 — What I Do
               </h4>
-              <ul className="text-xs text-slate-300 space-y-1">
+              <ul className="text-xs xl:text-base text-slate-300 space-y-1">
                 <li>• Clean up messy Word documents and rebuild them professionally</li>
                 <li>• Fix headers, footers, spacing, margins, and TOCs</li>
                 <li>• Create branded templates for proposals, reports, and contracts</li>
@@ -73,10 +73,10 @@ export default function OfficeOpsPage() {
 
             {/* ADOBE TALENTS */}
             <div className="rounded-xl border border-slate-800 bg-slate-900/60 p-5 space-y-3">
-              <h4 className="text-sm font-semibold text-slate-100">
+              <h4 className="text-sm xl:text-lg font-semibold text-slate-100">
                 Adobe Creative Cloud — What I Do
               </h4>
-              <ul className="text-xs text-slate-300 space-y-1">
+              <ul className="text-xs xl:text-base text-slate-300 space-y-1">
                 <li>• Resize, optimize, and clean up images in Photoshop</li>
                 <li>• Remove backgrounds and fix lighting/color issues</li>
                 <li>• Create social graphics, banners, and thumbnails</li>
@@ -93,11 +93,11 @@ export default function OfficeOpsPage() {
             </div>
 
             {/* WORKFLOW TALENTS */}
-            <div className="rounded-xl border border-slate-800 bg-slate-900/60 p-5 space-y-3 md:col-span-2">
-              <h4 className="text-sm font-semibold text-slate-100">
+            <div className="rounded-xl text-center border border-slate-800 bg-slate-900/60 p-5 space-y-3 md:col-span-2">
+              <h4 className="text-sm  xl:text-lg font-semibold text-slate-100">
                 Workflow, Integration & Problem Solving
               </h4>
-              <ul className="text-xs text-slate-300 space-y-1">
+              <ul className="text-xs xl:text-base text-slate-300 space-y-1">
                 <li>• Build smooth pipelines between Adobe CC and Microsoft 365</li>
                 <li>• Create shared asset libraries and template systems</li>
                 <li>• Standardize branding across documents, slides, and graphics</li>
@@ -113,10 +113,10 @@ export default function OfficeOpsPage() {
 
         {/* MICROSOFT 365 SECTION */}
         <section className="space-y-6">
-          <h3 className="text-xl font-semibold tracking-tight">
+          <h3 className="text-xl xl:text-2xl font-semibold tracking-tight">
             Microsoft 365 Support
           </h3>
-          <p className="text-sm text-slate-300 max-w-2xl">
+          <p className="text-sm xl:text-base text-slate-300 max-w-2xl">
             Fast, reliable help across Word, Excel, PowerPoint, Outlook,
             SharePoint, and OneDrive.
           </p>
@@ -124,8 +124,8 @@ export default function OfficeOpsPage() {
           <div className="grid gap-6 md:grid-cols-2">
             {/* Word */}
             <div className="rounded-xl border border-slate-800 bg-slate-900/60 p-5">
-              <h4 className="text-sm font-semibold">Word — Documents</h4>
-              <ul className="mt-3 text-xs text-slate-300 space-y-1">
+              <h4 className="text-sm xl:text-lg font-semibold">Word — Documents</h4>
+              <ul className="mt-3 text-xs xl:text-base text-slate-300 space-y-1">
                 <li>• Clean up messy documents</li>
                 <li>• Create branded templates</li>
                 <li>• Fix headers, footers, spacing, TOCs</li>
@@ -136,8 +136,8 @@ export default function OfficeOpsPage() {
 
             {/* Excel */}
             <div className="rounded-xl border border-slate-800 bg-slate-900/60 p-5">
-              <h4 className="text-sm font-semibold">Excel — Spreadsheets</h4>
-              <ul className="mt-3 text-xs text-slate-300 space-y-1">
+              <h4 className="text-sm xl:text-lg font-semibold">Excel — Spreadsheets</h4>
+              <ul className="mt-3 text-xs xl:text-base text-slate-300 space-y-1">
                 <li>• Fix broken formulas</li>
                 <li>• Build calculators & trackers</li>
                 <li>• Create dashboards & charts</li>
@@ -148,8 +148,8 @@ export default function OfficeOpsPage() {
 
             {/* PowerPoint */}
             <div className="rounded-xl border border-slate-800 bg-slate-900/60 p-5">
-              <h4 className="text-sm font-semibold">PowerPoint — Slides</h4>
-              <ul className="mt-3 text-xs text-slate-300 space-y-1">
+              <h4 className="text-sm xl:text-lg font-semibold">PowerPoint — Slides</h4>
+              <ul className="mt-3 text-xs xl:text-base text-slate-300 space-y-1">
                 <li>• Rebuild outdated slide decks</li>
                 <li>• Create branded templates</li>
                 <li>• Add charts, graphics, animations</li>
@@ -160,10 +160,10 @@ export default function OfficeOpsPage() {
 
             {/* Outlook / SharePoint */}
             <div className="rounded-xl border border-slate-800 bg-slate-900/60 p-5">
-              <h4 className="text-sm font-semibold">
+              <h4 className="text-sm xl:text-lg font-semibold">
                 Outlook, SharePoint & OneDrive
               </h4>
-              <ul className="mt-3 text-xs text-slate-300 space-y-1">
+              <ul className="mt-3 text-xs xl:text-base text-slate-300 space-y-1">
                 <li>• Organize inboxes & folders</li>
                 <li>• Set up shared drives</li>
                 <li>• Fix sync issues</li>
@@ -176,10 +176,10 @@ export default function OfficeOpsPage() {
 
         {/* ADOBE SECTION */}
         <section className="space-y-6">
-          <h3 className="text-xl font-semibold tracking-tight">
+          <h3 className="text-xl xl:text-2xl font-semibold tracking-tight">
             Adobe Creative Cloud Support
           </h3>
-          <p className="text-sm text-slate-300 max-w-2xl">
+          <p className="text-sm xl:text-base text-slate-300 max-w-2xl">
             Clean, professional graphics and document support across Photoshop,
             Illustrator, InDesign, Premiere Pro, and Acrobat.
           </p>
@@ -187,8 +187,8 @@ export default function OfficeOpsPage() {
           <div className="grid gap-6 md:grid-cols-2">
             {/* Photoshop */}
             <div className="rounded-xl border border-slate-800 bg-slate-900/60 p-5">
-              <h4 className="text-sm font-semibold">Photoshop — Graphics</h4>
-              <ul className="mt-3 text-xs text-slate-300 space-y-1">
+              <h4 className="text-sm xl:text-lg font-semibold">Photoshop — Graphics</h4>
+              <ul className="mt-3 text-xs xl:text-base text-slate-300 space-y-1">
                 <li>• Resize and optimize images</li>
                 <li>• Remove backgrounds</li>
                 <li>• Create social graphics & banners</li>
@@ -199,8 +199,8 @@ export default function OfficeOpsPage() {
 
             {/* Illustrator */}
             <div className="rounded-xl border border-slate-800 bg-slate-900/60 p-5">
-              <h4 className="text-sm font-semibold">Illustrator — Vector</h4>
-              <ul className="mt-3 text-xs text-slate-300 space-y-1">
+              <h4 className="text-sm xl:text-lg font-semibold">Illustrator — Vector</h4>
+              <ul className="mt-3 text-xs xl:text-base text-slate-300 space-y-1">
                 <li>• Clean up vector files</li>
                 <li>• Rebuild logos</li>
                 <li>• Create icons & simple graphics</li>
@@ -211,8 +211,8 @@ export default function OfficeOpsPage() {
 
             {/* InDesign */}
             <div className="rounded-xl border border-slate-800 bg-slate-900/60 p-5">
-              <h4 className="text-sm font-semibold">InDesign — Layout</h4>
-              <ul className="mt-3 text-xs text-slate-300 space-y-1">
+              <h4 className="text-sm xl:text-lg font-semibold">InDesign — Layout</h4>
+              <ul className="mt-3 text-xs xl:text-base text-slate-300 space-y-1">
                 <li>• Build brochures & one-pagers</li>
                 <li>• Create branded templates</li>
                 <li>• Fix layout & typography</li>
@@ -223,10 +223,10 @@ export default function OfficeOpsPage() {
 
             {/* Premiere / Acrobat */}
             <div className="rounded-xl border border-slate-800 bg-slate-900/60 p-5">
-              <h4 className="text-sm font-semibold">
+              <h4 className="text-sm xl:text-lg font-semibold">
                 Premiere Pro & Acrobat
               </h4>
-              <ul className="mt-3 text-xs text-slate-300 space-y-1">
+              <ul className="mt-3 text-xs xl:text-base text-slate-300 space-y-1">
                 <li>• Simple video edits</li>
                 <li>• Add titles & captions</li>
                 <li>• Compress videos</li>
@@ -239,37 +239,37 @@ export default function OfficeOpsPage() {
 
         {/* HOURLY RATES */}
         <section id="rates" className="space-y-8 border-t border-slate-800 pt-10">
-          <h3 className="text-2xl font-semibold tracking-tight">
+          <h3 className="text-2xl xl:text-3xl font-semibold tracking-tight">
             Hourly Pricing
           </h3>
-          <p className="text-sm text-slate-300 max-w-2xl">
+          <p className="text-sm xl:text-base text-slate-300 max-w-2xl">
             Simple, transparent hourly rates. No contracts. No minimums.
           </p>
 
           <div className="grid gap-6 md:grid-cols-3">
             {/* Standard */}
             <div className="rounded-2xl border border-slate-800 bg-slate-900/70 p-6">
-              <h4 className="text-sm font-semibold">Standard Office Work</h4>
+              <h4 className="text-sm xl:text-lg font-semibold">Standard Office Work</h4>
               <p className="mt-3 text-3xl font-semibold">$35/hr</p>
-              <p className="mt-2 text-xs text-slate-400">
+              <p className="mt-2 text-xs xl:text-base text-slate-400">
                 Word, Excel, PowerPoint, Outlook, SharePoint, OneDrive
               </p>
             </div>
 
             {/* Adobe */}
             <div className="rounded-2xl border border-indigo-500 bg-slate-900/70 p-6 shadow-[0_0_0_1px_rgba(129,140,248,0.4)]">
-              <h4 className="text-sm font-semibold">Adobe Creative Cloud</h4>
+              <h4 className="text-sm xl:text-lg font-semibold">Adobe Creative Cloud</h4>
               <p className="mt-3 text-3xl font-semibold">$45/hr</p>
-              <p className="mt-2 text-xs text-slate-400">
+              <p className="mt-2 text-xs xl:text-base text-slate-400">
                 Photoshop, Illustrator, InDesign, Acrobat, Premiere Pro
               </p>
             </div>
 
             {/* On-site */}
             <div className="rounded-2xl border border-slate-800 bg-slate-900/70 p-6">
-              <h4 className="text-sm font-semibold">On-Site Office Help</h4>
+              <h4 className="text-sm xl:text-lg font-semibold">On-Site Office Help</h4>
               <p className="mt-3 text-3xl font-semibold">$60/hr</p>
-              <p className="mt-2 text-xs text-slate-400">
+              <p className="mt-2 text-xs xl:text-base text-slate-400">
                 Travel available upon request
               </p>
             </div>
@@ -283,8 +283,8 @@ export default function OfficeOpsPage() {
               <h3 className="text-lg font-semibold">
                 Need help with a document, graphic, or spreadsheet?
               </h3>
-              <p className="mt-2 text-sm text-slate-200">
-                Send me the file and I’ll give you an estimated time before I
+              <p className="mt-2 text-sm xl:text-base text-slate-200">
+                Send me the file and I`ll give you an estimated time before I
                 start.
               </p>
             </div>
