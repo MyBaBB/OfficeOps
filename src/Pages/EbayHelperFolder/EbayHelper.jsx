@@ -149,7 +149,7 @@ export default function EbayOps() {
         <p className="mb-8 text-gray-600">
           Let`s fix your store and get your products moving.
         </p>
-        <a href="https://contact.mybabb.com/ebayhelper">
+        <a href="https://officehelper.brainbuddys.com/ebayhelper" target="_blank" rel="noopener noreferrer">
           <button className="rounded-lg bg-blue-600 px-8 py-4 text-white shadow transition hover:bg-blue-700">
             Start My Listing Upgrade
           </button>
