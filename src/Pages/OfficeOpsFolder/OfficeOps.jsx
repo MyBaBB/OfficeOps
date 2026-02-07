@@ -265,14 +265,15 @@ export default function OfficeOpsPage() {
             {/* Premiere / Acrobat */}
             <div className="rounded-xl border border-slate-800 bg-slate-900/60 p-5">
               <h4 className="text-sm font-semibold xl:text-lg">
-                Premiere Pro & Acrobat
+                Video Editing and Creation
               </h4>
               <ul className="mt-3 space-y-1 text-xs text-slate-300 xl:text-base">
-                <li>• Simple video edits</li>
-                <li>• Add titles & captions</li>
+                <li>• Advanced Video Editing</li>
+                <li>• After Effect VFX</li>
+                <li>• Audio Remix</li>
+                <li>• Cinematic Color Grading</li>
                 <li>• Compress videos</li>
-                <li>• Clean up PDFs</li>
-                <li>• Combine, split, optimize PDFs</li>
+               
               </ul>
             </div>
           </div>
@@ -292,7 +293,7 @@ export default function OfficeOpsPage() {
 
           <div className="grid gap-6 md:grid-cols-3">
             {/* Standard */}
-            <div className="rounded-2xl border border-slate-800 bg-slate-900/70 p-6">
+            <div className="rounded-2xl border border-indigo-500 bg-slate-900/70 p-6">
               <h4 className="text-sm font-semibold xl:text-lg">
                 Standard Office Work
               </h4>
@@ -307,22 +308,26 @@ export default function OfficeOpsPage() {
               <h4 className="text-sm font-semibold xl:text-lg">
                 Adobe Creative Cloud
               </h4>
-              <p className="mt-3 text-3xl font-semibold">$45/hr</p>
+              <p className="mt-3 text-3xl font-semibold">$35/hr</p>
               <p className="mt-2 text-xs text-slate-400 xl:text-base">
-                Photoshop, Illustrator, InDesign, Acrobat, Premiere Pro
+                Photoshop, Illustrator, InDesign, Acrobat
               </p>
             </div>
 
+          <div className="rounded-2xl border border-indigo-500 bg-slate-900/70 p-6 shadow-[0_0_0_1px_rgba(129,140,248,0.4)]">
+            <h4 className="text-sm font-semibold xl:text-lg">
+              Advanced Video Editing
+            </h4>
+            <p className="mt-3 text-3xl font-semibold">$35/hr</p>
+            <p className="mt-2 text-xs text-slate-400 xl:text-base">
+              Premiere Pro, After Effects, Adobe Audition
+            </p>
+          </div>
+
+
+
             {/* On-site */}
-            <div className="rounded-2xl border border-slate-800 bg-slate-900/70 p-6">
-              <h4 className="text-sm font-semibold xl:text-lg">
-                On-Site Office Help
-              </h4>
-              <p className="mt-3 text-3xl font-semibold">$60/hr</p>
-              <p className="mt-2 text-xs text-slate-400 xl:text-base">
-                Travel available upon request
-              </p>
-            </div>
+            
           </div>
         </section>
 
@@ -333,6 +338,15 @@ export default function OfficeOpsPage() {
               <h3 className="text-lg font-semibold">
                 Need help with a document, graphic, or spreadsheet?
               </h3>
+              
+              <h4 className="text-sm font-semibold xl:text-lg">
+                On-Site Office Help
+              </h4>
+              <p className="mt-3 text-3xl font-semibold">$45/hr</p>
+              <p className="mt-2 text-xs text-slate-400 xl:text-base">
+                Travel available upon request
+              </p>
+            
               <p className="mt-2 text-sm text-slate-200 xl:text-base">
                 Send me the file and I`ll give you an estimated time before I
                 start.
