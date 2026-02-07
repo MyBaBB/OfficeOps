@@ -338,7 +338,7 @@ export default function OfficeOpsPage() {
                 start.
               </p>
             </div>
-            <a href="https://officehelper.brainbuddys.com/officeops" target="_blank" rel="noopener noreferrer">
+            <a href="https://contact.mybabb.com/contactofficeops" target="_blank" rel="noopener noreferrer">
               <button className="rounded-full bg-indigo-500 px-6 py-2 text-xs font-semibold hover:bg-indigo-400">
                 Request Office Help
               </button>
