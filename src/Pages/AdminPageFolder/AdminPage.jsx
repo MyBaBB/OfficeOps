@@ -12,10 +12,7 @@ export default function Admin() {
       name: "Ebay-Helper",
       url: "https://officehelper.brainbuddys.com/ebayhelper",
     },
-    {
-      name: "Admin",
-      url: "https://officehelper.brainbuddys.com/admin",
-    },
+   
   ];
 
   const copyToClipboard = async (text, name) => {
