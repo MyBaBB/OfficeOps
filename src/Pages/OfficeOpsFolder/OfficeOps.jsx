@@ -287,38 +287,64 @@ export default function OfficeOpsPage() {
           <h3 className="text-2xl font-semibold tracking-tight xl:text-3xl">
             Hourly Pricing
           </h3>
-          <p className="max-w-2xl text-sm text-slate-300 xl:text-base">
+          <p className="max-w-2xl text-center text-sm text-slate-200 xl:text-xl">
             Simple, transparent hourly rates. No contracts. No minimums.
           </p>
 
           <div className="grid gap-6 md:grid-cols-3">
             {/* Standard */}
             <div className="rounded-2xl border border-indigo-500 bg-slate-900/70 p-6">
-              <h4 className="text-sm font-semibold xl:text-lg">
+              <h4 className="text-sm font-semibold xl:text-xl ">
                 Standard Office Work
               </h4>
-              <p className="mt-3 text-3xl font-semibold">$35/hr</p>
+               <p className="text-xl text-green-300 ">
+                $45
+                   <span className="text-red-400">
+                     &nbsp;-15%<span className="text-[aliceblue] font-semibold text-base">&nbsp;Winter Special</span>
+                   </span>
+                </p>
+              <p className="mt-3 text-3xl font-semibold text-green-300"> $38.25/hr</p>
+
+
               <p className="mt-2 text-xs text-slate-400 xl:text-base">
                 Word, Excel, PowerPoint, Outlook, SharePoint, OneDrive
               </p>
-            </div>
+            </div >
 
             {/* Adobe */}
             <div className="rounded-2xl border border-indigo-500 bg-slate-900/70 p-6 shadow-[0_0_0_1px_rgba(129,140,248,0.4)]">
-              <h4 className="text-sm font-semibold xl:text-lg">
+              <h4 className="text-sm font-semibold xl:text-xl">
                 Adobe Creative Cloud
               </h4>
-              <p className="mt-3 text-3xl font-semibold">$35/hr</p>
+              
+             <p className="text-xl text-green-300 ">
+                $45
+                   <span className="text-red-400">
+                     &nbsp;-15%<span className="text-[aliceblue] font-semibold text-base">&nbsp;Winter Special</span>
+                   </span>
+                </p>
+              <p className="mt-3 text-3xl font-semibold text-green-300"> $38.25/hr</p>
+
+
               <p className="mt-2 text-xs text-slate-400 xl:text-base">
                 Photoshop, Illustrator, InDesign, Acrobat
               </p>
             </div>
 
           <div className="rounded-2xl border border-indigo-500 bg-slate-900/70 p-6 shadow-[0_0_0_1px_rgba(129,140,248,0.4)]">
-            <h4 className="text-sm font-semibold xl:text-lg">
+            <h4 className="text-sm font-semibold xl:text-xl">
               Advanced Video Editing
             </h4>
-            <p className="mt-3 text-3xl font-semibold">$35/hr</p>
+            
+           <p className="text-xl text-green-300 ">
+                $45
+                   <span className="text-red-400">
+                     &nbsp;-15%<span className="text-[aliceblue] font-semibold text-base">&nbsp;Winter Special</span>
+                   </span>
+                </p>
+              <p className="mt-3 text-3xl font-semibold text-green-300"> $38.25/hr</p>
+
+
             <p className="mt-2 text-xs text-slate-400 xl:text-base">
               Premiere Pro, After Effects, Adobe Audition
             </p>
@@ -335,14 +361,20 @@ export default function OfficeOpsPage() {
         <section className="border-t border-slate-800 pb-20 pt-10">
           <div className="flex flex-col gap-4 rounded-2xl border border-indigo-500/40 bg-indigo-500/10 p-6 md:flex-row md:items-center md:justify-between">
             <div>
-              <h3 className="text-lg font-semibold">
+              <h3 className="text-lg font-semibold mb-2">
                 Need help with a document, graphic, or spreadsheet?
               </h3>
               
-              <h4 className="text-sm font-semibold xl:text-lg">
+              <h4 className="text-sm font-semibold xl:text-xl underline">
                 On-Site Office Help
               </h4>
-              <p className="mt-3 text-3xl font-semibold">$45/hr</p>
+             <p className="text-xl text-green-300 ">
+                $55
+                   <span className="text-red-400">
+                     &nbsp;-15% special offer
+                   </span>
+                </p>
+              <p className="mt-3 text-3xl font-semibold text-green-300"> $46.75/hr</p>
               <p className="mt-2 text-xs text-slate-400 xl:text-base">
                 Travel available upon request
               </p>
