@@ -1,59 +1,67 @@
-import React, { useState } from "react";
+import { useState } from "react";
 
-export default function OfficeOpsAdmin() {
+export default function Admin() {
+  const [copied, setCopied] = useState(null);
+
   const forms = [
     {
-      name: "OfficeOps",
-      label: "OfficeOps Contact Form",
-      url: "https://officehelper.brainbuddys.com/officeops",
+      name: "ContactEbay",
+      url: "https://contact.mybabb.com/ContactEbay",
     },
     {
-      name: "EbayHelper",
-      label: "eBay Helper Contact Form",
-      url: "https://officehelper.brainbuddys.com/ebayHelper",
+      name: "ContactOfficeOps",
+      url: "https://contact.mybabb.com/ContactOfficeOps",
+    },
+    {
+      name: "ContactWebDev",
+      url: "https://contact.mybabb.com/ContactWebDev",
     },
   ];
 
-  const [copied, setCopied] = useState(null);
-
-  const copyToClipboard = (text, name) => {
-    navigator.clipboard.writeText(text);
+  const copyToClipboard = async (text, name) => {
+    await navigator.clipboard.writeText(text);
     setCopied(name);
     setTimeout(() => setCopied(null), 1500);
   };
 
   return (
-    <div className="min-h-screen w-full bg-gray-900 p-10">
-      <div className="mx-auto max-w-3xl rounded-xl bg-white p-8 shadow-lg">
-        <h1 className="mb-6 text-center text-3xl font-bold">
-          OfficeOps Admin Panel
-        </h1>
+    <div className="min-h-screen bg-gray-900 text-white p-6">
+      <h1 className="text-3xl font-bold mb-6">Admin Panel</h1>
 
-        <p className="mb-10 text-center text-gray-600">
-          Quick access to your OfficeOps contact form URLs. Click copy to grab
-          the link instantly.
-        </p>
-
-        <div className="space-y-6">
-          {forms.map((form) => (
-            <div
-              key={form.name}
-              className="flex items-center justify-between rounded-lg border bg-gray-50 p-4"
-            >
-              <div>
-                <h2 className="text-lg font-semibold">{form.label}</h2>
-                <p className="text-sm text-gray-500">{form.url}</p>
-              </div>
-
-              <button
-                onClick={() => copyToClipboard(form.url, form.name)}
-                className="rounded-lg bg-blue-600 px-4 py-2 text-white transition hover:bg-blue-700"
-              >
-                {copied === form.name ? "Copied!" : "Copy"}
-              </button>
+      <div className="space-y-4 ">
+        {forms.map((form) => (
+          <div
+            key={form.name}
+            className="flex flex-col xs:flex-row items-center justify-between bg-gray-800 p-4 rounded-lg shadow
+                       "
+          >
+            <div>
+              <p className="text-lg font-semibold">{form.name}</p>
+              <p className="text-sm text-gray-400">{form.url}</p>
             </div>
-          ))}
-        </div>
+
+            <div className="relative flex flex-col    gap-3 w-[100px]">
+  {/* COPY BUTTON */}
+  <button
+    onClick={() => copyToClipboard(form.url, form.name)}
+    className="w-[5rem] px-4 py-2 bg-blue-600 hover:bg-blue-700 rounded-md text-sm"
+  >
+    {copied === form.name ? "Copied!" : "Copy"}
+  </button>
+
+  {/* GO TO BUTTON */}
+  <a
+    href={form.url}
+    target="_blank"
+    rel="noopener noreferrer"
+    className="w-[5rem] px-4 py-2 bg-green-600 hover:bg-green-700 rounded-md text-sm text-center"
+  >
+    Go To
+  </a>
+</div>
+
+          </div>
+        ))}
       </div>
     </div>
   );
