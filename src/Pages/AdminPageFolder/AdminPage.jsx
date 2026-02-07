@@ -5,16 +5,16 @@ export default function Admin() {
 
   const forms = [
     {
-      name: "ContactEbay",
-      url: "https://contact.mybabb.com/ContactEbay",
+      name: "Office-Ops",
+      url: "https://officehelper.brainbuddys.com/officeops",
     },
     {
-      name: "ContactOfficeOps",
-      url: "https://contact.mybabb.com/ContactOfficeOps",
+      name: "Ebay-Helper",
+      url: "https://officehelper.brainbuddys.com/ebayhelper",
     },
     {
-      name: "ContactWebDev",
-      url: "https://contact.mybabb.com/ContactWebDev",
+      name: "Admin",
+      url: "https://officehelper.brainbuddys.com/admin",
     },
   ];
 
