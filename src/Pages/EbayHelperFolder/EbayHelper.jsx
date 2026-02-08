@@ -1,4 +1,21 @@
 import React from "react";
+import EggsUn from "../../img/EasterEggArray600x400-un.webp";
+import EggsEbay from "../../img/EasterEggArray600x400-Ebay.webp";
+import PhonesUn  from "../../img/phones600x400-un.webp";
+import PhonesEbay from "../../img/phones600x400-Ebay.webp";
+import BootsUn from "../../img/Rain-Boots-600x400-un.webp";
+import BootsEbay from "../../img/Rain-Boots-600x400-Ebay.webp";
+import ScrewDriverUn from "../../img/ScrewDiver600x400-un.webp";
+import ScrewDriverEbay from "../../img/ScrewDiver600x400-Ebay.webp";
+import SwimClothesUn from "../../img/SwimClothes600x400-un.webp";
+import SwimClothesEbay from "../../img/SwimClothes-600x400-Ebay.webp";
+
+
+
+
+
+
+
 
 export default function EbayOps() {
   return (
@@ -45,56 +62,99 @@ export default function EbayOps() {
         </h2>
 
         <p className="mx-auto mb-12 max-w-3xl text-center text-slate-200">
-          Every seller knows the pain: dark photos, messy descriptions,
+          Every seller knows the pain: Messy images, dark photos, ugly descriptions,
           inconsistent formatting. I turn cluttered listings into clean,
           high‑credibility product pages that convert.
         </p>
 
-        <div className="mx-auto grid max-w-6xl gap-10 md:grid-cols-2">
+      <div className=" flex flex-col xl:flex-row xl:space-x-4 space-y-4 xl:space-y-0
+       justify-center items-center">
           {/* Pair 1 */}
-          <div className="space-y-4">
+          <div className="relative space-y-4 ">
+            <div className="absolute top-5 left-4 
+             border-2 border-black bg-slate-900/80 text-red-200 px-2 rounded-md">
+              Before</div>
             <img
-              src="https://picsum.photos/id/1011/600/400"
+              src={EggsUn} 
               className="rounded-lg shadow-lg shadow-black/40"
             />
+             <div className="absolute bottom-1 right-1 text-green-300
+                 border-2 border-green-700 bg-black  px-2 rounded-md">
+              After</div>
             <img
-              src="https://picsum.photos/id/1012/600/400"
+              src={EggsEbay}
               className="rounded-lg shadow-lg shadow-black/40"
             />
           </div>
 
           {/* Pair 2 */}
-          <div className="space-y-4">
+           <div className="relative space-y-4 ">
+            <div className="absolute top-5 left-4 
+             border-2 border-black bg-slate-900/80 text-red-200 px-2 rounded-md">
+              Before</div>
             <img
-              src="https://picsum.photos/id/1021/600/400"
+              src={PhonesUn}
               className="rounded-lg shadow-lg shadow-black/40"
             />
+            <div className="absolute bottom-1 right-1 text-green-300
+                 border-2 border-green-700 bg-black  px-2 rounded-md">
+              After</div>
             <img
-              src="https://picsum.photos/id/1022/600/400"
+              src={PhonesEbay}
               className="rounded-lg shadow-lg shadow-black/40"
             />
           </div>
 
           {/* Pair 3 */}
-          <div className="space-y-4">
+           <div className="relative space-y-4 ">
+            <div className="absolute top-5 left-4 
+             border-2 border-black bg-slate-900/80 text-red-200 px-2 rounded-md">
+              Before</div>
             <img
-              src="https://picsum.photos/id/1031/600/400"
+              src={BootsUn}
               className="rounded-lg shadow-lg shadow-black/40"
             />
+             <div className="absolute bottom-1 right-1 text-green-300
+                 border-2 border-green-700 bg-black  px-2 rounded-md">
+              After</div>
             <img
-              src="https://picsum.photos/id/1032/600/400"
+              src={BootsEbay}
               className="rounded-lg shadow-lg shadow-black/40"
             />
           </div>
 
           {/* Pair 4 */}
-          <div className="space-y-4">
+           <div className="relative space-y-4 ">
+            <div className="absolute top-5 left-4 
+             border-2 border-black bg-slate-900/80 text-red-200 px-2 rounded-md">
+              Before</div>
             <img
-              src="https://picsum.photos/id/1041/600/400"
+              src={ScrewDriverUn}
               className="rounded-lg shadow-lg shadow-black/40"
             />
+             <div className="absolute bottom-1 right-1 text-green-300
+                 border-2 border-green-700 bg-black  px-2 rounded-md">
+              After</div>
             <img
-              src="https://picsum.photos/id/1042/600/400"
+              src={ScrewDriverEbay}
+              className="rounded-lg shadow-lg shadow-black/40"
+            />
+          </div>
+
+          {/* Pair 5 */}
+           <div className="relative space-y-4 ">
+            <div className="absolute top-5 left-4 
+             border-2 border-black bg-slate-900/80 text-red-200 px-2 rounded-md">
+              Before</div>
+            <img
+              src={SwimClothesUn }
+              className="rounded-lg shadow-lg shadow-black/40"
+            />
+             <div className="absolute bottom-1 right-1 text-green-300
+                 border-2 border-green-700 bg-black  px-2 rounded-md">
+              After</div>
+            <img
+              src={SwimClothesEbay}
               className="rounded-lg shadow-lg shadow-black/40"
             />
           </div>
