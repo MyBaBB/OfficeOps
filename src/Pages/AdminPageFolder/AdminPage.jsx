@@ -12,6 +12,14 @@ export default function Admin() {
       name: "Ebay-Helper",
       url: "https://officehelper.brainbuddys.com/ebayhelper",
     },
+
+    
+    {
+      name: "Image_Restore",
+      url: "https://officehelper.brainbuddys.com/image_restore",
+    },
+
+
    
   ];
 
