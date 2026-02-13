@@ -9,6 +9,8 @@ import ScrewDriverUn from "../../img/ScrewDiver600x400-un.webp";
 import ScrewDriverEbay from "../../img/ScrewDiver600x400-Ebay.webp";
 import SwimClothesUn from "../../img/SwimClothes600x400-un.webp";
 import SwimClothesEbay from "../../img/SwimClothes-600x400-Ebay.webp";
+import HackerBuddy from "../../Components/HackerBuddyFolder/HackerBuddy";
+import HackerBuddyBottom from "../../Components/HackerBuddyFolder/HackerBuddyBottom";
 
 
 
@@ -38,7 +40,7 @@ export default function EbayOps() {
           OfficeOps workflow.
         </p>
       </section>
-
+<HackerBuddy />
       {/* EXPERIENCE */}
       <section className="w-full px-6 py-16">
         <div className="mx-auto max-w-4xl text-center">
@@ -54,10 +56,10 @@ export default function EbayOps() {
           </p>
         </div>
       </section>
-
+<HackerBuddyBottom />
       {/* BEFORE / AFTER GALLERY */}
       <section className="w-full bg-slate-900 px-6 py-20">
-        <h2 className="mb-10 text-center text-3xl font-semibold text-white">
+        <h2 className="mb-10 pt-4 text-center text-3xl font-semibold text-white">
           Before & After: Real Listing Transformations
         </h2>
 

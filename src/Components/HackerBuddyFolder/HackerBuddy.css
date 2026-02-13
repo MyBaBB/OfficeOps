@@ -1,0 +1,23 @@
+.hackerBuddyButtonHide {
+  visibility: hidden;
+  animation: showButton 3s ease-in-out 3s forwards;
+}
+.hackerBuddyBottom {
+  visibility: hidden;
+  animation: showButton 3s ease-in-out 3s forwards;
+}
+@keyframes showButton {
+  to {
+    visibility: visible;
+  }
+}
+@media screen and (max-width: 1480px) {
+  .hackerBuddyButtonHide {
+   display: none;
+  }
+}
+@media screen and (min-width: 1480px) {
+  .hackerBuddyBottom {
+   display: none;
+  }
+}
