@@ -1,5 +1,5 @@
 import "./OfficeOps.css";
-import HackerBuddy from "../../Components/HackerBuddyFolder/HackerBuddy";
+ 
 import HackerBuddyBottom from "../../Components/HackerBuddyFolder/HackerBuddyBottom";
 
 export default function OfficeOpsPage() {
@@ -19,7 +19,7 @@ export default function OfficeOpsPage() {
           </a>
         </div>
       </header>
-<HackerBuddy />
+ 
 
       {/* MAIN CONTENT */}
       <main className="mx-auto max-w-6xl space-y-20 px-4 py-12">
@@ -36,7 +36,7 @@ export default function OfficeOpsPage() {
             full-time hire.
           </p>
         </section>
-<HackerBuddyBottom />
+
         {/* TALENTS SECTION */}
         <section className="space-y-6 border-t border-slate-800 pt-10">
           <h3 className="text-xl font-semibold tracking-tight xl:text-2xl">
@@ -211,7 +211,7 @@ export default function OfficeOpsPage() {
             </div>
           </div>
         </section>
-
+<HackerBuddyBottom />
         {/* ADOBE SECTION */}
         <section className="space-y-6">
           <h3 className="text-xl font-semibold tracking-tight xl:text-2xl">
