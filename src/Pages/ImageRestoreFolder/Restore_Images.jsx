@@ -9,7 +9,7 @@ import Restor2un from "../../img/Restore2-un-600x400.webp";
 import Restor3un from "../../img/Restore3-un-600x400.webp";
 import Restor4un from "../../img/Restore4-un-600x400.webp";
 import Restor5un from "../../img/Restore5-un-600x400.webp";
-import HackerBuddy from "../../Components/HackerBuddyFolder/HackerBuddy";
+ 
 import HackerBuddyBottom from "../../Components/HackerBuddyFolder/HackerBuddyBottom";
 
 // Placeholder before/after images
@@ -46,7 +46,7 @@ export default function ImageOps() {
           OfficeOps workflow.
         </p>
       </section>
-<HackerBuddy />
+ 
       {/* EXPERIENCE */}
       <section className="w-full px-6 py-16">
         <div className="mx-auto max-w-4xl text-center">
