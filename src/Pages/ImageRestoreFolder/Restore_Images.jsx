@@ -35,7 +35,7 @@ export default function ImageOps() {
     <div className="min-h-screen w-full bg-slate-950 text-slate-200">
       
       {/* HERO */}
-      <section className="w-full bg-slate-900 px-6 py-20 text-center shadow-inner">
+      <section className="w-full bg-slate-900 px-6 pt-8 text-center shadow-inner">
         <h1 className="mb-4 text-4xl font-bold text-white">
           Image Restoration & Editing — Done Right.
         </h1>
@@ -65,9 +65,9 @@ export default function ImageOps() {
           </p>
         </div>
       </section>
-<HackerBuddyBottom />
+   <span className="relative flex w-fit m-auto mt-[-4rem] pb-4"><HackerBuddyBottom /></span>
       {/* BEFORE / AFTER GALLERY */}
-      <section className="w-full bg-slate-900 px-6 py-20">
+      <section className="w-full bg-slate-900 px-6 pb-20 pt-4">
         <h2 className="mb-10 pt-4 text-center text-3xl font-semibold text-white">
           Before & After: Real Image Transformations
         </h2>
