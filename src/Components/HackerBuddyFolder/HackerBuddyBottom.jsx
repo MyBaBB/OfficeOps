@@ -1,5 +1,5 @@
 import Lightning from "./Lightning";
-import HackerBuddyBottom from "./Hackerbuddy-125PX.webp";
+import HackerBuddyBottom from "./Hackerbuddy-125px.webp";
 import "./HackerBuddy.css";
 
  
