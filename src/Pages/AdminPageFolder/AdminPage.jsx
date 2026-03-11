@@ -18,6 +18,10 @@ export default function Admin() {
       name: "Image_Restore",
       url: "https://officehelper.brainbuddys.com/image_restore",
     },
+    {
+      name: "Computer-Technician",
+      url: "https://officehelper.brainbuddys.com/comptech",
+    },
 
 
    
