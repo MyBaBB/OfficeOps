@@ -5,6 +5,7 @@ import EbayHelper from "./Pages/EbayHelperFolder/EbayHelper";
 import ImageOps from "./Pages/ImageRestoreFolder/Restore_Images"; 
 import "./App.css";
 import Zenith from "./Pages/Zenith";
+import CompTech from "./Pages/CompTechFolder/CompTech";
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
           <Route path="/officeops" element={<OfficeOps />} />
           <Route path="/ebayhelper" element={<EbayHelper />} />
           <Route path="/admin" element={<Admin />} />
+          <Route path="/comptech" element={< CompTech />} />
           <Route path="/image_restore" element={<ImageOps />} />
         </Routes>
       </Router>
