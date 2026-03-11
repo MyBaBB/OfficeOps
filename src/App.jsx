@@ -13,6 +13,7 @@ const App = () => {
       <Router>
         <Routes>
           <Route path="/" element={<Zenith />} />
+          <Route path="/*" element={<Zenith />} />
           <Route path="/officeops" element={<OfficeOps />} />
           <Route path="/ebayhelper" element={<EbayHelper />} />
           <Route path="/admin" element={<Admin />} />
