@@ -9,7 +9,7 @@ A Tech Support Channel
 </p>
 
 <p align="center">
-  <img src="" alt="Office Ops Image">
+  <img src="./Office-ops.webp" alt="Office Ops Image">
 </p>
  
 
