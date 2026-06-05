@@ -246,7 +246,7 @@ export default function EbayOps() {
 
             <p className="text-xl text-green-300">
               $55
-              <span className="text-red-400">&nbsp;-15% special offer</span>
+              <span className="text-red-400">&nbsp;-15% special offer 👈🏼</span>
             </p>
 
             <p id="rates" className="mt-3 text-3xl font-semibold text-green-300">
