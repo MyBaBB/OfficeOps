@@ -303,7 +303,7 @@ export default function OfficeOpsPage() {
                <p className="text-xl text-green-300 ">
                 $45
                    <span className="text-red-400">
-                     &nbsp;-15%<span className="text-[aliceblue] font-semibold text-base">&nbsp;Winter Special</span>
+                     &nbsp;-15%<span className="text-[aliceblue] font-semibold text-base">&nbsp;Special 👈🏼</span>
                    </span>
                 </p>
               <p className="mt-3 text-3xl font-semibold text-green-300"> $38.25/hr</p>
@@ -323,7 +323,7 @@ export default function OfficeOpsPage() {
              <p className="text-xl text-green-300 ">
                 $45
                    <span className="text-red-400">
-                     &nbsp;-15%<span className="text-[aliceblue] font-semibold text-base">&nbsp;Winter Special</span>
+                     &nbsp;-15%<span className="text-[aliceblue] font-semibold text-base">&nbsp;Special 👈🏼</span>
                    </span>
                 </p>
               <p className="mt-3 text-3xl font-semibold text-green-300"> $38.25/hr</p>
@@ -342,7 +342,7 @@ export default function OfficeOpsPage() {
            <p className="text-xl text-green-300 ">
                 $45
                    <span className="text-red-400">
-                     &nbsp;-15%<span className="text-[aliceblue] font-semibold text-base">&nbsp;Winter Special</span>
+                     &nbsp;-15%<span className="text-[aliceblue] font-semibold text-base">&nbsp;Special 👈🏼</span>
                    </span>
                 </p>
               <p className="mt-3 text-3xl font-semibold text-green-300"> $38.25/hr</p>
@@ -374,7 +374,7 @@ export default function OfficeOpsPage() {
              <p className="text-xl text-green-300 ">
                 $55
                    <span className="text-red-400">
-                     &nbsp;-15% special offer
+                     &nbsp;-15% special offer 👈🏼
                    </span>
                 </p>
               <p className="mt-3 text-3xl font-semibold text-green-300"> $46.75/hr</p>

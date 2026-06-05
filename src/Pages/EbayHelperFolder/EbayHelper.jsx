@@ -228,7 +228,7 @@ export default function EbayOps() {
                <p className="text-xl text-green-300 ">
                 $45
                    <span className="text-red-400">
-                     &nbsp;-15%<span className="text-[aliceblue] font-semibold text-base">&nbsp;Winter Special</span>
+                     &nbsp;-15%<span className="text-[aliceblue] font-semibold text-base">&nbsp;Special 👈🏼</span>
                    </span>
                 </p>
               <p className="mt-3 text-3xl font-semibold text-green-300"> $38.25/hr</p>
