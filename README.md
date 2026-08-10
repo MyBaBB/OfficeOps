@@ -1,6 +1,6 @@
  
  
-  # Brain Buddys 👉 https://OfficeOps.com 
+  # Brain Buddys 👉 https://officehelper.brainbuddys.com 
 <p align="center"> 
    A General Purpose Private Website 
 </p>
