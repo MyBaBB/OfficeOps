@@ -13,7 +13,6 @@ export default function Admin() {
       url: "https://officehelper.brainbuddys.com/ebayhelper",
     },
 
-    
     {
       name: "Image_Restore",
       url: "https://officehelper.brainbuddys.com/image_restore",
@@ -26,9 +25,6 @@ export default function Admin() {
       name: "Open-Source-Coder",
       url: "https://officehelper.brainbuddys.com/open_source",
     },
-
-
-   
   ];
 
   const copyToClipboard = async (text, name) => {
@@ -38,41 +34,39 @@ export default function Admin() {
   };
 
   return (
-    <div className="min-h-screen bg-gray-900 text-white p-6">
-      <h1 className="text-3xl font-bold mb-6">Admin Panel</h1>
+    <div className="min-h-screen bg-gray-900 p-6 text-white">
+      <h1 className="mb-6 text-3xl font-bold">Admin Panel</h1>
 
-      <div className="space-y-4 ">
+      <div className="space-y-4">
         {forms.map((form) => (
           <div
             key={form.name}
-            className="flex flex-col xs:flex-row items-center justify-between bg-gray-800 p-4 rounded-lg shadow
-                       "
+            className="flex flex-col items-center justify-between rounded-lg bg-gray-800 p-4 shadow xs:flex-row"
           >
             <div>
               <p className="text-lg font-semibold">{form.name}</p>
               <p className="text-sm text-gray-400">{form.url}</p>
             </div>
 
-            <div className="relative flex flex-col    gap-3 w-[100px]">
-  {/* COPY BUTTON */}
-  <button
-    onClick={() => copyToClipboard(form.url, form.name)}
-    className="w-[5rem] px-4 py-2 bg-blue-600 hover:bg-blue-700 rounded-md text-sm"
-  >
-    {copied === form.name ? "Copied!" : "Copy"}
-  </button>
+            <div className="relative flex w-[100px] flex-col gap-3">
+              {/* COPY BUTTON */}
+              <button
+                onClick={() => copyToClipboard(form.url, form.name)}
+                className="w-[5rem] rounded-md bg-blue-600 px-4 py-2 text-sm hover:bg-blue-700"
+              >
+                {copied === form.name ? "Copied!" : "Copy"}
+              </button>
 
-  {/* GO TO BUTTON */}
-  <a
-    href={form.url}
-    target="_blank"
-    rel="noopener noreferrer"
-    className="w-[5rem] px-4 py-2 bg-green-600 hover:bg-green-700 rounded-md text-sm text-center"
-  >
-    Go To
-  </a>
-</div>
-
+              {/* GO TO BUTTON */}
+              <a
+                href={form.url}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-[5rem] rounded-md bg-green-600 px-4 py-2 text-center text-sm hover:bg-green-700"
+              >
+                Go To
+              </a>
+            </div>
           </div>
         ))}
       </div>

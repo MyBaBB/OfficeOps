@@ -1,7 +1,7 @@
 import React from "react";
 import EggsUn from "../../img/EasterEggArray600x400-un.webp";
 import EggsEbay from "../../img/EasterEggArray600x400-Ebay.webp";
-import PhonesUn  from "../../img/phones600x400-un.webp";
+import PhonesUn from "../../img/phones600x400-un.webp";
 import PhonesEbay from "../../img/phones600x400-Ebay.webp";
 import BootsUn from "../../img/Rain-Boots-600x400-un.webp";
 import BootsEbay from "../../img/Rain-Boots-600x400-Ebay.webp";
@@ -12,35 +12,27 @@ import SwimClothesEbay from "../../img/SwimClothes-600x400-Ebay.webp";
 
 import HackerBuddyBottom from "../../Components/HackerBuddyFolder/HackerBuddyBottom";
 
-
-
-
-
-
-
-
 export default function EbayOps() {
   return (
     <div className="min-h-screen w-full bg-slate-950 text-slate-200">
-        <a
-            href="#rates"
-            className="absolute right-6 top-6 rounded-full bg-indigo-500 px-4 py-2 text-xs font-semibold hover:bg-indigo-400 xl:text-base"
-          >
-            Hourly Rates
-          </a>
+      <a
+        href="#rates"
+        className="absolute right-6 top-6 rounded-full bg-indigo-500 px-4 py-2 text-xs font-semibold hover:bg-indigo-400 xl:text-base"
+      >
+        Hourly Rates
+      </a>
       {/* HERO */}
       <section className="w-full bg-slate-900 px-6 py-20 text-center shadow-inner">
         <h1 className="mb-4 text-4xl font-bold text-white">
           Your eBay Listings, Upgraded. Fast.
         </h1>
-      
+
         <p className="mx-auto max-w-2xl text-lg text-slate-200">
           Professional product photos, SEO‑optimized titles, clean descriptions,
           and modern templates — powered by Adobe CC, Microsoft 365, and my
           OfficeOps workflow.
         </p>
       </section>
-
 
       {/* EXPERIENCE */}
       <section className="w-full px-6 py-16">
@@ -61,30 +53,29 @@ export default function EbayOps() {
 
       {/* BEFORE / AFTER GALLERY */}
       <section className="w-full bg-slate-900 px-6 py-8">
-        <h2 className="mb-10  text-center text-3xl font-semibold text-white">
+        <h2 className="mb-10 text-center text-3xl font-semibold text-white">
           Before & After: Real Listing Transformations
         </h2>
 
         <p className="mx-auto mb-12 max-w-3xl text-center text-slate-200">
-          Every seller knows the pain: Messy images, dark photos, ugly descriptions,
-          inconsistent formatting. I turn cluttered listings into clean,
-          high‑credibility product pages that convert.
+          Every seller knows the pain: Messy images, dark photos, ugly
+          descriptions, inconsistent formatting. I turn cluttered listings into
+          clean, high‑credibility product pages that convert.
         </p>
 
-      <div className=" flex flex-col xl:flex-row xl:space-x-4 space-y-4 xl:space-y-0
-       justify-center items-center">
+        <div className="flex flex-col items-center justify-center space-y-4 xl:flex-row xl:space-x-4 xl:space-y-0">
           {/* Pair 1 */}
-          <div className="relative space-y-4 ">
-            <div className="absolute top-5 left-4 
-             border-2 border-black bg-slate-900/80 text-red-200 px-2 rounded-md">
-              Before</div>
+          <div className="relative space-y-4">
+            <div className="absolute left-4 top-5 rounded-md border-2 border-black bg-slate-900/80 px-2 text-red-200">
+              Before
+            </div>
             <img
-              src={EggsUn} 
+              src={EggsUn}
               className="rounded-lg shadow-lg shadow-black/40"
             />
-             <div className="absolute bottom-1 right-1 text-green-300
-                 border-2 border-green-700 bg-black  px-2 rounded-md">
-              After</div>
+            <div className="absolute bottom-1 right-1 rounded-md border-2 border-green-700 bg-black px-2 text-green-300">
+              After
+            </div>
             <img
               src={EggsEbay}
               className="rounded-lg shadow-lg shadow-black/40"
@@ -92,17 +83,17 @@ export default function EbayOps() {
           </div>
 
           {/* Pair 2 */}
-           <div className="relative space-y-4 ">
-            <div className="absolute top-5 left-4 
-             border-2 border-black bg-slate-900/80 text-red-200 px-2 rounded-md">
-              Before</div>
+          <div className="relative space-y-4">
+            <div className="absolute left-4 top-5 rounded-md border-2 border-black bg-slate-900/80 px-2 text-red-200">
+              Before
+            </div>
             <img
               src={PhonesUn}
               className="rounded-lg shadow-lg shadow-black/40"
             />
-            <div className="absolute bottom-1 right-1 text-green-300
-                 border-2 border-green-700 bg-black  px-2 rounded-md">
-              After</div>
+            <div className="absolute bottom-1 right-1 rounded-md border-2 border-green-700 bg-black px-2 text-green-300">
+              After
+            </div>
             <img
               src={PhonesEbay}
               className="rounded-lg shadow-lg shadow-black/40"
@@ -110,17 +101,17 @@ export default function EbayOps() {
           </div>
 
           {/* Pair 3 */}
-           <div className="relative space-y-4 ">
-            <div className="absolute top-5 left-4 
-             border-2 border-black bg-slate-900/80 text-red-200 px-2 rounded-md">
-              Before</div>
+          <div className="relative space-y-4">
+            <div className="absolute left-4 top-5 rounded-md border-2 border-black bg-slate-900/80 px-2 text-red-200">
+              Before
+            </div>
             <img
               src={BootsUn}
               className="rounded-lg shadow-lg shadow-black/40"
             />
-             <div className="absolute bottom-1 right-1 text-green-300
-                 border-2 border-green-700 bg-black  px-2 rounded-md">
-              After</div>
+            <div className="absolute bottom-1 right-1 rounded-md border-2 border-green-700 bg-black px-2 text-green-300">
+              After
+            </div>
             <img
               src={BootsEbay}
               className="rounded-lg shadow-lg shadow-black/40"
@@ -128,17 +119,17 @@ export default function EbayOps() {
           </div>
 
           {/* Pair 4 */}
-           <div className="relative space-y-4 ">
-            <div className="absolute top-5 left-4 
-             border-2 border-black bg-slate-900/80 text-red-200 px-2 rounded-md">
-              Before</div>
+          <div className="relative space-y-4">
+            <div className="absolute left-4 top-5 rounded-md border-2 border-black bg-slate-900/80 px-2 text-red-200">
+              Before
+            </div>
             <img
               src={ScrewDriverUn}
               className="rounded-lg shadow-lg shadow-black/40"
             />
-             <div className="absolute bottom-1 right-1 text-green-300
-                 border-2 border-green-700 bg-black  px-2 rounded-md">
-              After</div>
+            <div className="absolute bottom-1 right-1 rounded-md border-2 border-green-700 bg-black px-2 text-green-300">
+              After
+            </div>
             <img
               src={ScrewDriverEbay}
               className="rounded-lg shadow-lg shadow-black/40"
@@ -146,17 +137,17 @@ export default function EbayOps() {
           </div>
 
           {/* Pair 5 */}
-           <div className="relative space-y-4 ">
-            <div className="absolute top-5 left-4 
-             border-2 border-black bg-slate-900/80 text-red-200 px-2 rounded-md">
-              Before</div>
+          <div className="relative space-y-4">
+            <div className="absolute left-4 top-5 rounded-md border-2 border-black bg-slate-900/80 px-2 text-red-200">
+              Before
+            </div>
             <img
-              src={SwimClothesUn }
+              src={SwimClothesUn}
               className="rounded-lg shadow-lg shadow-black/40"
             />
-             <div className="absolute bottom-1 right-1 text-green-300
-                 border-2 border-green-700 bg-black  px-2 rounded-md">
-              After</div>
+            <div className="absolute bottom-1 right-1 rounded-md border-2 border-green-700 bg-black px-2 text-green-300">
+              After
+            </div>
             <img
               src={SwimClothesEbay}
               className="rounded-lg shadow-lg shadow-black/40"
@@ -220,6 +211,7 @@ export default function EbayOps() {
 
       {/* CTA FOOTER */}
 
+<<<<<<< HEAD
 <section className="  relative flex-row xs:flex  justify-between ">
         <div className=" border-2 border-slate-900 rounded-lg p-6  ">
               <h4 className="text-sm font-semibold xl:text-xl ">
@@ -239,77 +231,89 @@ export default function EbayOps() {
               <p className="mt-2 text-xs text-slate-200 xl:text-base">
               Remote work preferred
             </p>
+=======
+      <section className="relative flex-row justify-between xs:flex">
+        <div className="rounded-lg border-2 border-slate-900 p-6">
+          <h4 className="text-sm font-semibold xl:text-xl">
+            Standard Office Work
+          </h4>
+          <p className="text-xl text-green-300">
+            $45
+            <span className="text-red-400">
+              &nbsp;-15%
+              <span className="text-base font-semibold text-[aliceblue]">
+                &nbsp;Special
+              </span>
+            </span>
+          </p>
+          <p className="mt-3 text-3xl font-semibold text-green-300">
+            {" "}
+            $38.25/hr
+          </p>
+          <p className="mt-2 text-xs text-slate-200 xl:text-base">
+            Remote work preferred
+          </p>
+>>>>>>> 8197ef07ef3c8d56989c491c06ad7c1a7c07a384
         </div>
 
+        <div className="rounded-lg border-2 border-slate-900 p-6">
+          <h4 className="text-sm font-semibold text-indigo-300 underline xl:text-xl">
+            On-Site Office Help
+          </h4>
 
+          <p className="text-xl text-green-300">
+            $55
+            <span className="text-red-400">&nbsp;-15% special offer</span>
+          </p>
 
-        <div className=" border-2 border-slate-900 rounded-lg p-6  ">
-            <h4 className="text-sm font-semibold xl:text-xl underline text-indigo-300">
-              On-Site Office Help
-            </h4>
+          <p id="rates" className="mt-3 text-3xl font-semibold text-green-300">
+            $46.75/hr
+          </p>
 
+<<<<<<< HEAD
             <p className="text-xl text-green-300">
               $55
               <span className="text-red-400">&nbsp;-15% special offer 👈🏼</span>
             </p>
+=======
+          <p className="mt-2 text-xs text-slate-200 xl:text-base">
+            Travel available upon request
+          </p>
+        </div>
+      </section>
+>>>>>>> 8197ef07ef3c8d56989c491c06ad7c1a7c07a384
 
-            <p id="rates" className="mt-3 text-3xl font-semibold text-green-300">
-              $46.75/hr
-            </p>
-
-            <p className="mt-2 text-xs text-slate-200 xl:text-base">
-              Travel available upon request
-            </p>
-         </div>
-</section>
-
-      <section className="border border-slate-500 rounded-3xl">
-        <div className=" relative flex flex-col  rounded-2xl border border-indigo-500/40 bg-indigo-500/10 p-6
-         xs:flex-row md:items-center md:justify-between ">
+      <section className="rounded-3xl border border-slate-500">
+        <div className="relative flex flex-col rounded-2xl border border-indigo-500/40 bg-indigo-500/10 p-6 xs:flex-row md:items-center md:justify-between">
           <div className="relative">
-          
-          <div className="">
-            <h3 className="text-lg font-semibold mb-2 text-white  ">
-              Ready to upgrade your listings?
-            </h3>
-            <p className="mb-8 text-slate-200">
-              Let&apos;s fix your store and get your products moving.
-            </p>
-          </div>
-         
+            <div className="">
+              <h3 className="mb-2 text-lg font-semibold text-white">
+                Ready to upgrade your listings?
+              </h3>
+              <p className="mb-8 text-slate-200">
+                Let&apos;s fix your store and get your products moving.
+              </p>
+            </div>
 
-      <div className="relative flex       "> 
-
- 
-
-</div>
-            <p className="mt-2 text-sm text-slate-300 xl:text-base ">
+            <div className="relative flex"></div>
+            <p className="mt-2 text-sm text-slate-300 xl:text-base">
               Send me the file and I&apos;ll give you an estimated time before I
               start.
             </p>
           </div>
-
-
-
-
 
           <a
             href="https://contact.mybabb.com/contactebay"
             target="_blank"
             rel="noopener noreferrer"
             className=" "
-          > 
-            <button className=" rounded-lg bg-blue-600 px-8 py-4 text-white shadow-lg
-             shadow-blue-900/40 transition hover:bg-blue-700 hover:shadow-blue-800/50 border border-blue-400/20">
+          >
+            <button className="rounded-lg border border-blue-400/20 bg-blue-600 px-8 py-4 text-white shadow-lg shadow-blue-900/40 transition hover:bg-blue-700 hover:shadow-blue-800/50">
               Start My Listing Upgrade
             </button>
           </a>
         </div>
-
-
-
       </section>
-      
     </div>
   );
 }

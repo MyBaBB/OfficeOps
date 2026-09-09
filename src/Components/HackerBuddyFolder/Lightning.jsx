@@ -12,7 +12,7 @@ const LightningBolt = () => {
       const flash = () => {
         setVisible((prev) => !prev);
         flashIndex++;
-        
+
         if (flashIndex < flashCount * 2) {
           setTimeout(flash, Math.random() * 100 + 50);
         }
@@ -30,10 +30,10 @@ const LightningBolt = () => {
   }, []);
 
   return (
-    <div className=" h-12 justify-center flex items-center">
+    <div className="flex h-12 items-center justify-center">
       {visible && (
         <div className=" ">
-          <p className="text-5xl text-[#22d3ee] ">
+          <p className="text-5xl text-[#22d3ee]">
             <GiLightningArc />
           </p>
         </div>

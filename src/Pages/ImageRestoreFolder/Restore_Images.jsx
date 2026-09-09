@@ -9,31 +9,28 @@ import Restor2un from "../../img/Restore2-un-600x400.webp";
 import Restor3un from "../../img/Restore3-un-600x400.webp";
 import Restor4un from "../../img/Restore4-un-600x400.webp";
 import Restor5un from "../../img/Restore5-un-600x400.webp";
- 
+
 import HackerBuddyBottom from "../../Components/HackerBuddyFolder/HackerBuddyBottom";
 
 // Placeholder before/after images
 const before1 = Restor1un;
-const after1  = Restore1;
+const after1 = Restore1;
 
 const before2 = Restor2un;
-const after2  = Restore2;
+const after2 = Restore2;
 
 const before3 = Restor3un;
-const after3  = Restore3;
+const after3 = Restore3;
 
 const before4 = Restor4un;
-const after4  = Restore4;
+const after4 = Restore4;
 
 const before5 = Restor5un;
-const after5  = Restore5;
-
-
+const after5 = Restore5;
 
 export default function ImageOps() {
   return (
     <div className="min-h-screen w-full bg-slate-950 text-slate-200">
-      
       {/* HERO */}
       <section className="w-full bg-slate-900 px-6 pt-8 text-center shadow-inner">
         <h1 className="mb-4 text-4xl font-bold text-white">
@@ -41,12 +38,12 @@ export default function ImageOps() {
         </h1>
 
         <p className="mx-auto max-w-2xl text-lg text-slate-200">
-          Professional image repair, restoration, color correction, object removal,
-          and creative alterations — powered by Adobe CC, AI tools, and my
-          OfficeOps workflow.
+          Professional image repair, restoration, color correction, object
+          removal, and creative alterations — powered by Adobe CC, AI tools, and
+          my OfficeOps workflow.
         </p>
       </section>
- 
+
       {/* EXPERIENCE */}
       <section className="w-full px-6 py-16">
         <div className="mx-auto max-w-4xl text-center">
@@ -54,18 +51,22 @@ export default function ImageOps() {
             Bring Your Photos Back to Life
           </h2>
           <p className="leading-relaxed text-slate-200">
-            Whether it&apos;s restoring old family photos, repairing damage, enhancing
-            clarity, or creating artistic edits — I use Adobe Photoshop, Adobe Illustrator,and all of Adobe Products,and professional AI enhancement tools for 
-             customizing workflows to deliver clean, modern, high‑credibility results.
+            Whether it&apos;s restoring old family photos, repairing damage,
+            enhancing clarity, or creating artistic edits — I use Adobe
+            Photoshop, Adobe Illustrator,and all of Adobe Products,and
+            professional AI enhancement tools for customizing workflows to
+            deliver clean, modern, high‑credibility results.
           </p>
           <p className="mt-4 leading-relaxed text-slate-200">
-            Whether it&apos;s restoring old family photos, repairing damage, enhancing
-            clarity, or creating artistic edits — I deliver professional results with properly
-            sized and formatted images.
+            Whether it&apos;s restoring old family photos, repairing damage,
+            enhancing clarity, or creating artistic edits — I deliver
+            professional results with properly sized and formatted images.
           </p>
         </div>
       </section>
-   <span className="relative flex w-fit m-auto mt-[-4rem] pb-4"><HackerBuddyBottom /></span>
+      <span className="relative m-auto mt-[-4rem] flex w-fit pb-4">
+        <HackerBuddyBottom />
+      </span>
       {/* BEFORE / AFTER GALLERY */}
       <section className="w-full bg-slate-900 px-6 pb-20 pt-4">
         <h2 className="mb-10 pt-4 text-center text-3xl font-semibold text-white">
@@ -77,10 +78,9 @@ export default function ImageOps() {
           alterations — here&apos;s what professional editing can do.
         </p>
 
-        <div className="flex flex-col xl:flex-row xl:space-x-4 space-y-4 xl:space-y-0 justify-center items-center">
-
+        <div className="flex flex-col items-center justify-center space-y-4 xl:flex-row xl:space-x-4 xl:space-y-0">
           {/* Pair Component */}
-          {[ 
+          {[
             { before: before1, after: after1 },
             { before: before2, after: after2 },
             { before: before3, after: after3 },
@@ -88,27 +88,29 @@ export default function ImageOps() {
             { before: before5, after: after5 },
           ].map((pair, i) => (
             <div key={i} className="relative space-y-4">
-              <div className="absolute top-5 left-4 border-2 border-black bg-slate-900/80
-               text-red-200 px-2 rounded-md">
+              <div className="absolute left-4 top-5 rounded-md border-2 border-black bg-slate-900/80 px-2 text-red-200">
                 Before
               </div>
-              <img src={pair.before} className="rounded-lg shadow-lg shadow-black/40" />
+              <img
+                src={pair.before}
+                className="rounded-lg shadow-lg shadow-black/40"
+              />
 
-              <div className="absolute bottom-1 right-1 text-green-300 border-2 border-green-700
-               bg-black px-2 rounded-md">
+              <div className="absolute bottom-1 right-1 rounded-md border-2 border-green-700 bg-black px-2 text-green-300">
                 After
               </div>
-              <img src={pair.after} className="rounded-lg shadow-lg shadow-black/40" />
+              <img
+                src={pair.after}
+                className="rounded-lg shadow-lg shadow-black/40"
+              />
             </div>
           ))}
-
         </div>
       </section>
 
       {/* SERVICES */}
       <section className="w-full bg-slate-950 px-6 py-16">
         <div className="mx-auto grid max-w-6xl gap-12 md:grid-cols-2">
-
           <div>
             <h3 className="mb-4 text-2xl font-semibold text-white">
               Restoration
@@ -156,20 +158,19 @@ export default function ImageOps() {
               <li>• Custom requests</li>
             </ul>
           </div>
-
         </div>
       </section>
 
       {/* CTA FOOTER */}
-      <section className="border border-slate-500 rounded-3xl">
+      <section className="rounded-3xl border border-slate-500">
         <div className="relative flex flex-col rounded-2xl border border-indigo-500/40 bg-indigo-500/10 p-6 xs:flex-row md:items-center md:justify-between">
-          
           <div>
-            <h3 className="text-lg font-semibold mb-2 text-white">
+            <h3 className="mb-2 text-lg font-semibold text-white">
               Ready to restore or enhance your images?
             </h3>
             <p className="mb-8 text-slate-200">
-              Send me your files and I’ll give you an estimated time before I start.
+              Send me your files and I’ll give you an estimated time before I
+              start.
             </p>
           </div>
 
@@ -178,14 +179,12 @@ export default function ImageOps() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <button className="rounded-lg bg-blue-600 px-8 py-4 text-white shadow-lg shadow-blue-900/40 transition hover:bg-blue-700 hover:shadow-blue-800/50 border border-blue-400/20">
+            <button className="rounded-lg border border-blue-400/20 bg-blue-600 px-8 py-4 text-white shadow-lg shadow-blue-900/40 transition hover:bg-blue-700 hover:shadow-blue-800/50">
               Start My Image Upgrade
             </button>
           </a>
-
         </div>
       </section>
-
     </div>
   );
 }
