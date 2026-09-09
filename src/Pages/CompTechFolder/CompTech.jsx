@@ -196,7 +196,7 @@ import HackerBuddyBottom from "../../Components/HackerBuddyFolder/HackerBuddyBot
                 <span className="text-red-400">
                   &nbsp;-15%
                   <span className="text-[aliceblue] font-semibold text-base">
-                    &nbsp;Winter Special
+                    &nbsp;Special
                   </span>
                 </span>
               </p>
@@ -220,7 +220,7 @@ import HackerBuddyBottom from "../../Components/HackerBuddyFolder/HackerBuddyBot
                 <span className="text-red-400">
                   &nbsp;-15%
                   <span className="text-[aliceblue] font-semibold text-base">
-                    &nbsp;Winter Special
+                    &nbsp;Special
                   </span>
                 </span>
               </p>
