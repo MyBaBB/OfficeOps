@@ -22,6 +22,10 @@ export default function Admin() {
       name: "Computer-Technician",
       url: "https://officehelper.brainbuddys.com/comptech",
     },
+    {
+      name: "Open-Source-Coder",
+      url: "https://officehelper.brainbuddys.com/open_source",
+    },
 
 
    

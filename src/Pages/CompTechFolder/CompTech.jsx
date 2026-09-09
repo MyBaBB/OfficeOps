@@ -196,7 +196,11 @@ import HackerBuddyBottom from "../../Components/HackerBuddyFolder/HackerBuddyBot
                 <span className="text-red-400">
                   &nbsp;-15%
                   <span className="text-[aliceblue] font-semibold text-base">
+<<<<<<< HEAD
                     &nbsp;Special 👈🏼
+=======
+                    &nbsp;Special
+>>>>>>> ba33fec87a964a66977735a056a1da2a4d4ed312
                   </span>
                 </span>
               </p>
@@ -220,7 +224,11 @@ import HackerBuddyBottom from "../../Components/HackerBuddyFolder/HackerBuddyBot
                 <span className="text-red-400">
                   &nbsp;-15%
                   <span className="text-[aliceblue] font-semibold text-base">
+<<<<<<< HEAD
                     &nbsp; Special 👈🏼
+=======
+                    &nbsp;Special
+>>>>>>> ba33fec87a964a66977735a056a1da2a4d4ed312
                   </span>
                 </span>
               </p>

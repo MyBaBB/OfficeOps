@@ -1,5 +1,5 @@
 import "./OfficeOps.css";
- 
+import NegotiablePricing from "../../Components/PricingFolder/Negotiable"; 
 import HackerBuddyBottom from "../../Components/HackerBuddyFolder/HackerBuddyBottom";
 
 export default function OfficeOpsPage() {
@@ -394,6 +394,7 @@ export default function OfficeOpsPage() {
             </a>
           </div>
         </section>
+       < NegotiablePricing />
       </main>
     </div>
   );

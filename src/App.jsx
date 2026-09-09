@@ -6,7 +6,7 @@ import ImageOps from "./Pages/ImageRestoreFolder/Restore_Images";
 import "./App.css";
 import Zenith from "./Pages/Zenith";
 import CompTech from "./Pages/CompTechFolder/CompTech";
-
+import OpenSource from "./Pages/OpenSourcePageFolder/OpenSourcePage";
 const App = () => {
   return (
     <main className="h-screen w-screen">
@@ -19,6 +19,7 @@ const App = () => {
           <Route path="/admin" element={<Admin />} />
           <Route path="/comptech" element={< CompTech />} />
           <Route path="/image_restore" element={<ImageOps />} />
+          <Route path="/open_source" element={<OpenSource />} />
         </Routes>
       </Router>
     </main>
