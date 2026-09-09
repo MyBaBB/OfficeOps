@@ -4,10 +4,7 @@ const NegotiablePricing = () => {
   return (
     <>
       {/* NEGOTIABLE RATES */}
-      <section
-        id="rates"
-        className="space-y-8 border-t border-slate-800 pt-10"
-      >
+      <section id="rates" className="space-y-8 border-t border-slate-800 pt-10">
         <h3 className="text-2xl font-semibold tracking-tight xl:text-3xl">
           Flexible & Negotiable Rates
         </h3>
@@ -24,7 +21,7 @@ const NegotiablePricing = () => {
             <p className="text-xl text-green-300">
               Starting Rate
               <span className="text-red-400">
-                <span className="font-semibold text-base text-[aliceblue]">
+                <span className="text-base font-semibold text-[aliceblue]">
                   &nbsp;Flexible
                 </span>
               </span>
@@ -35,7 +32,7 @@ const NegotiablePricing = () => {
             <p className="mt-2 text-xs text-slate-400 xl:text-base">
               Word, Excel, PowerPoint, Outlook, SharePoint, OneDrive
             </p>
-          </div> 
+          </div>
 
           {/* Adobe */}
           <div className="rounded-2xl border border-indigo-500 bg-slate-900/70 p-6 shadow-[0_0_0_1px_rgba(129,140,248,0.4)]">
@@ -45,7 +42,7 @@ const NegotiablePricing = () => {
             <p className="text-xl text-green-300">
               Per Project / Hour
               <span className="text-red-400">
-                <span className="font-semibold text-base text-[aliceblue]">
+                <span className="text-base font-semibold text-[aliceblue]">
                   &nbsp;Custom Scope
                 </span>
               </span>
@@ -66,7 +63,7 @@ const NegotiablePricing = () => {
             <p className="text-xl text-green-300">
               Per Project / Hour
               <span className="text-red-400">
-                <span className="font-semibold text-base text-[aliceblue]">
+                <span className="text-base font-semibold text-[aliceblue]">
                   &nbsp;Custom Scope
                 </span>
               </span>
@@ -104,7 +101,8 @@ const NegotiablePricing = () => {
             </p>
 
             <p className="mt-2 text-sm text-slate-200 xl:text-base">
-              Send over the project details or files and we can work out a rate that fits your timeline and budget.
+              Send over the project details or files and we can work out a rate
+              that fits your timeline and budget.
             </p>
           </div>
           <a

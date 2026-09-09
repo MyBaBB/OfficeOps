@@ -44,7 +44,7 @@ main::before {
   height: 300px;
   background: radial-gradient(
     circle,
-    rgba(99, 102, 241, .12) 0%,
+    rgba(99, 102, 241, 0.12) 0%,
     rgba(2, 6, 23, 0) 70%
   );
   pointer-events: none;
@@ -62,8 +62,9 @@ main::before {
 .rounded-xl.border-slate-800:hover {
   border-color: rgba(99, 102, 241, 0.4);
   transform: translateY(-2px);
-  box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.5),
-              0 0 15px 0 rgba(99, 102, 241, 0.1);
+  box-shadow:
+    0 10px 25px -5px rgba(0, 0, 0, 0.5),
+    0 0 15px 0 rgba(99, 102, 241, 0.1);
 }
 
 /* Bullet Point Accent Custom Styling */
@@ -96,7 +97,8 @@ header a[href="#rates"]:active {
 
 /* Custom Keyframes for Decorative Elements */
 @keyframes pulseGlow {
-  0%, 100% {
+  0%,
+  100% {
     opacity: 0.4;
     transform: scale(1);
   }

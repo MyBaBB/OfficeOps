@@ -1,5 +1,5 @@
 import "./OfficeOps.css";
-import NegotiablePricing from "../../Components/PricingFolder/Negotiable"; 
+import NegotiablePricing from "../../Components/PricingFolder/Negotiable";
 import HackerBuddyBottom from "../../Components/HackerBuddyFolder/HackerBuddyBottom";
 
 export default function OfficeOpsPage() {
@@ -19,7 +19,6 @@ export default function OfficeOpsPage() {
           </a>
         </div>
       </header>
- 
 
       {/* MAIN CONTENT */}
       <main className="mx-auto max-w-6xl space-y-20 px-4 py-12">
@@ -211,7 +210,7 @@ export default function OfficeOpsPage() {
             </div>
           </div>
         </section>
-<HackerBuddyBottom />
+        <HackerBuddyBottom />
         {/* ADOBE SECTION */}
         <section className="space-y-6">
           <h3 className="text-xl font-semibold tracking-tight xl:text-2xl">
@@ -276,13 +275,12 @@ export default function OfficeOpsPage() {
                 <li>• Audio Remix</li>
                 <li>• Cinematic Color Grading</li>
                 <li>• Compress videos</li>
-               
               </ul>
             </div>
           </div>
         </section>
 
-       < NegotiablePricing />
+        <NegotiablePricing />
       </main>
     </div>
   );

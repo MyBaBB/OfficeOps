@@ -2,7 +2,7 @@ import "./CompTech.css";
 
 import HackerBuddyBottom from "../../Components/HackerBuddyFolder/HackerBuddyBottom";
 
- function ComputerTechPage() {
+function ComputerTechPage() {
   return (
     <div className="w-full bg-slate-950 text-slate-50">
       {/* HEADER */}
@@ -21,7 +21,7 @@ import HackerBuddyBottom from "../../Components/HackerBuddyFolder/HackerBuddyBot
       </header>
 
       {/* MAIN CONTENT */}
-      <main className="mx-auto max-w-6xl space-y-20 px-4 pt-12 pb-4">
+      <main className="mx-auto max-w-6xl space-y-20 px-4 pb-4 pt-12">
         {/* INTRO */}
         <section className="max-w-3xl space-y-4">
           <h2 className="text-center text-3xl font-semibold tracking-tight xl:text-4xl">
@@ -50,7 +50,7 @@ import HackerBuddyBottom from "../../Components/HackerBuddyFolder/HackerBuddyBot
           <div className="grid gap-6 md:grid-cols-2">
             {/* PC & WINDOWS SUPPORT */}
             <div className="space-y-3 rounded-xl border border-slate-800 bg-slate-900/60 p-5">
-              <h4 className="text-sm font-semibold  xl:text-lg">
+              <h4 className="text-sm font-semibold xl:text-lg">
                 Windows & Computer Support — What I Do
               </h4>
               <ul className="space-y-1 text-xs text-slate-100 xl:text-base">
@@ -68,7 +68,7 @@ import HackerBuddyBottom from "../../Components/HackerBuddyFolder/HackerBuddyBot
 
             {/* HARDWARE SUPPORT */}
             <div className="space-y-3 rounded-xl border border-slate-800 bg-slate-900/60 p-5">
-              <h4 className="text-sm font-semibold  xl:text-lg">
+              <h4 className="text-sm font-semibold xl:text-lg">
                 Hardware & Parts Replacement — What I Do
               </h4>
               <ul className="space-y-1 text-xs text-slate-100 xl:text-base">
@@ -86,7 +86,7 @@ import HackerBuddyBottom from "../../Components/HackerBuddyFolder/HackerBuddyBot
 
             {/* NETWORKING */}
             <div className="space-y-3 rounded-xl border border-slate-800 bg-slate-900/60 p-5 text-center md:col-span-2">
-              <h4 className="text-sm font-semibold  xl:text-lg">
+              <h4 className="text-sm font-semibold xl:text-lg">
                 Networking, Wi‑Fi & Device Setup
               </h4>
               <ul className="space-y-1 text-xs text-slate-100 xl:text-base">
@@ -174,10 +174,7 @@ import HackerBuddyBottom from "../../Components/HackerBuddyFolder/HackerBuddyBot
         <HackerBuddyBottom />
 
         {/* HOURLY RATES */}
-        <section
-          id="rates"
-          className="space-y-8 border-t border-slate-800 "
-        >
+        <section id="rates" className="space-y-8 border-t border-slate-800">
           <h3 className="text-2xl font-semibold tracking-tight xl:text-3xl">
             Hourly Pricing
           </h3>
@@ -188,14 +185,14 @@ import HackerBuddyBottom from "../../Components/HackerBuddyFolder/HackerBuddyBot
           <div className="grid gap-6 md:grid-cols-3">
             {/* Standard Computer Support */}
             <div className="rounded-2xl border border-indigo-500 bg-slate-900/70 p-6">
-              <h4 className="text-sm font-semibold xl:text-xl ">
+              <h4 className="text-sm font-semibold xl:text-xl">
                 Standard Computer Support
               </h4>
-              <p className="text-xl text-green-300 ">
+              <p className="text-xl text-green-300">
                 $55
                 <span className="text-red-400">
                   &nbsp;-15%
-                  <span className="text-[aliceblue] font-semibold text-base">
+                  <span className="text-base font-semibold text-[aliceblue]">
                     &nbsp;Special
                   </span>
                 </span>
@@ -215,11 +212,11 @@ import HackerBuddyBottom from "../../Components/HackerBuddyFolder/HackerBuddyBot
                 Hardware & Parts Replacement
               </h4>
 
-              <p className="text-xl text-green-300 ">
+              <p className="text-xl text-green-300">
                 $55
                 <span className="text-red-400">
                   &nbsp;-15%
-                  <span className="text-[aliceblue] font-semibold text-base">
+                  <span className="text-base font-semibold text-[aliceblue]">
                     &nbsp;Special
                   </span>
                 </span>
@@ -239,7 +236,7 @@ import HackerBuddyBottom from "../../Components/HackerBuddyFolder/HackerBuddyBot
                 On‑Site Technician
               </h4>
 
-              <p className="text-xl text-green-300 ">
+              <p className="text-xl text-green-300">
                 $55
                 <span className="text-red-400">&nbsp;-15% special offer</span>
               </p>
@@ -252,26 +249,21 @@ import HackerBuddyBottom from "../../Components/HackerBuddyFolder/HackerBuddyBot
               </p>
             </div>
           </div>
-
-        
         </section>
-        </main >
-        <div className="pb-4 relative flex justify-end pr-14">
-          <a
-            href="https://contact.mybabb.com/computer_tech"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="">
-            <button className=" rounded-lg bg-blue-600 px-8 py-4 text-white shadow-lg
-                    shadow-blue-900/40 transition hover:bg-blue-700 hover:shadow-blue-800/50
-                     border border-blue-400/20">
-              Start My Computer Upgrade
-            </button>
-          </a>
-          </div>
-      
-      
+      </main>
+      <div className="relative flex justify-end pb-4 pr-14">
+        <a
+          href="https://contact.mybabb.com/computer_tech"
+          target="_blank"
+          rel="noopener noreferrer"
+          className=""
+        >
+          <button className="rounded-lg border border-blue-400/20 bg-blue-600 px-8 py-4 text-white shadow-lg shadow-blue-900/40 transition hover:bg-blue-700 hover:shadow-blue-800/50">
+            Start My Computer Upgrade
+          </button>
+        </a>
+      </div>
     </div>
   );
 }
-export default ComputerTechPage; 
+export default ComputerTechPage;
