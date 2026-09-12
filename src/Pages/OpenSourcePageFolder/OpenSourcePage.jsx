@@ -87,10 +87,10 @@ export default function OpenSourceCoderPage() {
                 <h4 className="text-base font-semibold text-slate-100 xl:text-lg">
                   {service.title}
                 </h4>
-                <p className="text-xs text-slate-400 xl:text-sm">
+                <p className="text-xs text-slate-500 xl:text-sm">
                   {service.desc}
                 </p>
-                <ul className="space-y-1 pt-2 text-xs text-slate-300 xl:text-sm">
+                <ul className="space-y-1 pt-2 text-xs text-slate-300 xl:text-sm ">
                   {service.items.map((item, i) => (
                     <li key={i}>• {item}</li>
                   ))}
