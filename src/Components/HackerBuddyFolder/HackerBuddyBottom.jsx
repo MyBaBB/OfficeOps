@@ -1,5 +1,5 @@
 import Lightning from "./Lightning";
-import HackerBuddyBottom from "./Hackerbuddy-125px.webp";
+import HackerBuddyBottom2 from "./CatGirlGlow125x125px.jpeg";
 import "./HackerBuddy.css";
 
 const HackerBuddyButton = () => {
@@ -12,7 +12,7 @@ const HackerBuddyButton = () => {
         >
           <Lightning />
           <img
-            src={HackerBuddyBottom}
+            src={HackerBuddyBottom2}
             alt="Hacker Buddy Batman
         "
             width={"100px"}
