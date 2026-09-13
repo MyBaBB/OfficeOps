@@ -280,7 +280,6 @@ export default function OfficeOpsPage() {
           </div>
         </section>
 
-<<<<<<< HEAD
         {/* HOURLY RATES */}
         <section
           id="rates"
@@ -394,9 +393,6 @@ export default function OfficeOpsPage() {
           </div>
         </section>
        < NegotiablePricing />
-=======
-        <NegotiablePricing />
->>>>>>> 8197ef07ef3c8d56989c491c06ad7c1a7c07a384
       </main>
     </div>
   );
