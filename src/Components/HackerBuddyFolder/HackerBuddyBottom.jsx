@@ -1,5 +1,5 @@
 import Lightning from "./Lightning";
-import HackerBuddyBottom2 from "./CatGirlGlow-250x250.webp";
+import HackerBuddyBottom2 from "./CatGirlGlow-250x250-custom.webp";
 import "./HackerBuddy.css";
 
 const HackerBuddyButton = () => {

@@ -1,4 +1,4 @@
-import HackerBuddy2 from "./CatGirlGlow-250x250.webp";
+import HackerBuddy2 from "./CatGirlGlow-250x250-custom.webp";
 ``;
 import Lightning from "./Lightning";
 import "./HackerBuddy.css";
