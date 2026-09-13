@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import "./HackerBuddy.css";
-import { GiLightningArc } from "react-icons/gi";
+import { LuRadioTower } from "react-icons/lu";
 const LightningBolt = () => {
   const [visible, setVisible] = useState(false);
 
@@ -33,8 +33,8 @@ const LightningBolt = () => {
     <div className="flex h-12 items-center justify-center">
       {visible && (
         <div className=" ">
-          <p className="text-5xl text-[#22d3ee]">
-            <GiLightningArc />
+          <p className="text-5xl text-[#97eaf7]">
+            <LuRadioTower />
           </p>
         </div>
       )}
