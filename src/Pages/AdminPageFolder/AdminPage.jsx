@@ -25,6 +25,10 @@ export default function Admin() {
       name: "Open-Source-Coder",
       url: "https://officehelper.brainbuddys.com/open_source",
     },
+    {
+      name: "Personal_Assistant",
+      url: "https://officehelper.brainbuddys.com/personal_assistant",
+    },
   ];
 
   const copyToClipboard = async (text, name) => {
