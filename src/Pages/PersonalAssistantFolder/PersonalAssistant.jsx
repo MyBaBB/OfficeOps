@@ -1,5 +1,5 @@
 import NegotiablePricing from "../../Components/PricingFolder/Negotiable";
-import HackerBuddyBottom from "../../Components/HackerBuddyFolder/HackerBuddyBottom";
+import MeBeach from "../../img/Me_at_Beach_200x200.webp"
 
 export default function PersonalAssistantPage() {
   return (
@@ -38,33 +38,74 @@ export default function PersonalAssistantPage() {
           </p>
         </section>
 
-        <section className="space-y-6 border-t border-slate-800 pt-10">
-          <h3 className="text-xl font-semibold tracking-tight xl:text-2xl">
-            Meet Brett
-          </h3>
+        <section className="space-y-8 border-t border-slate-800 pt-12 px-4 sm:px-6 lg:px-8">
+  {/* Main Container: Stacks on mobile, side-by-side on desktop */}
+  <div className="flex flex-col md:flex-row items-center md:items-start gap-8 lg:gap-12">
+    
+    {/* Profile Image Column */}
+    <div className="flex-shrink-0 mx-auto md:mx-0">
+      <div className="relative group">
+        {/* Subtle decorative background glow */}
+        <div className="absolute -inset-1 bg-gradient-to-r from-blue-500 to-teal-400 rounded-3xl blur opacity-30 group-hover:opacity-60 transition duration-300"></div>
+        
+        <img 
+          src={MeBeach} 
+          alt="Brett at The Beach" 
+          className="relative w-[220px] h-[220px] sm:w-[250px] sm:h-[250px] object-cover rounded-2xl shadow-xl border border-slate-700" 
+        />
+      </div>
+    </div>
 
-          <p className="max-w-4xl text-sm leading-relaxed text-slate-300 xl:text-base">
-            I help businesses stay organized, productive, and profitable.
-            Whether you need clerical support, customer follow-up,
-            technical assistance, website management, marketing support,
-            or help keeping day-to-day operations moving, I am ready
-            to step in.
-          </p>
+    {/* Content Column */}
+    <div className="flex-1 space-y-4 text-center md:text-left">
+      <div>
+        <span className="text-xs font-semibold uppercase tracking-widest text-blue-400 bg-blue-950/60 px-3 py-1 rounded-full border border-blue-800/50">
+          Operations & Administrative Support
+        </span>
+        <h3 className="text-2xl sm:text-3xl font-bold tracking-tight text-white mt-2">
+          Meet Brett
+        </h3>
+      </div>
 
-          <p className="max-w-4xl text-sm leading-relaxed text-slate-300 xl:text-base">
-            I previously worked as a casino clerk where I handled
-            bookkeeping-related tasks, 10-key entry, records management,
-            documentation, and detail-oriented office work requiring
-            accuracy and accountability.
-          </p>
+      <p className="text-sm sm:text-base leading-relaxed text-slate-300">
+        I help businesses stay organized, productive, and profitable. 
+        Whether you need dependable clerical support, customer follow-up, 
+        tech assistance, website management, or day-to-day operations flow, 
+        I am ready to step in and add value immediately.
+      </p>
 
-          <p className="max-w-4xl text-sm leading-relaxed text-slate-300 xl:text-base">
-            Today I combine that background with web development,
-            Adobe Creative Cloud, video production, technical support,
-            sales assistance, and business operations support.
-          </p>
-        </section>
+      {/* Quick Skill Badges / Highlights Grid */}
+      <div className="grid grid-cols-2 sm:grid-cols-3 gap-2 pt-2 pb-1">
+        <div className="bg-slate-900/80 border border-slate-800 px-3 py-2 rounded-lg text-xs text-slate-200 font-medium text-center">
+          📊 Bookkeeping & 10-Key
+        </div>
+        <div className="bg-slate-900/80 border border-slate-800 px-3 py-2 rounded-lg text-xs text-slate-200 font-medium text-center">
+          🗂️ Records Management
+        </div>
+        <div className="bg-slate-900/80 border border-slate-800 px-3 py-2 rounded-lg text-xs text-slate-200 font-medium text-center">
+          💻 Web & Tech Ops
+        </div>
+        <div className="bg-slate-900/80 border border-slate-800 px-3 py-2 rounded-lg text-xs text-slate-200 font-medium text-center">
+          🎨 Adobe & Media
+        </div>
+        <div className="bg-slate-900/80 border border-slate-800 px-3 py-2 rounded-lg text-xs text-slate-200 font-medium text-center">
+          📞 Client Support
+        </div>
+        <div className="bg-slate-900/80 border border-slate-800 px-3 py-2 rounded-lg text-xs text-slate-200 font-medium text-center">
+          ⚡ High Accountability
+        </div>
+      </div>
 
+      <p className="text-sm sm:text-base leading-relaxed text-slate-300">
+        With a strong background handling bookkeeping, precision 10-key entry, 
+        and high-accountability office work from my time as a casino clerk—combined 
+        with modern tech, programming, and digital media skills—I bridge 
+        the gap between traditional administrative rigor and modern digital efficiency.
+      </p>
+    </div>
+
+  </div>
+</section>
         <section className="space-y-6 border-t border-slate-800 pt-10">
           <h3 className="text-xl font-semibold tracking-tight xl:text-2xl">
             Services
@@ -166,8 +207,7 @@ export default function PersonalAssistantPage() {
             </ul>
           </div>
         </section>
-
-        <HackerBuddyBottom />
+        
 
         <section className="space-y-6 border-t border-slate-800 pt-10">
           <h3 className="text-xl font-semibold tracking-tight xl:text-2xl">
