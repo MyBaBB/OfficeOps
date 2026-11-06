@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import meAtBeach from "../../img/Me_at_Beach_200x200.webp";
 import "./VibeCoder.css";
 import HackerBuddyBottom from "../../Components/HackerBuddyFolder/HackerBuddyBottom";
@@ -49,7 +49,7 @@ const VibeCoder = () => {
             </h1>
 
             <p className="max-w-2xl text-lg font-normal leading-relaxed text-slate-200 md:text-xl">
-              Anyone can prompt an LLM to spit out syntax. But it takes a
+              Anyone can tell a Robot to spit out something. But it takes a
               battle-tested veteran who knows architecture, performance, and
               custom UI engineering to{" "}
               <strong className="font-bold text-amber-300">
