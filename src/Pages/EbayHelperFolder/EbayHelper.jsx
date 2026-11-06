@@ -37,7 +37,7 @@ export default function EbayOps() {
   };
 
   return (
-    <div className="vibe-container relative min-h-screen overflow-hidden bg-slate-950 font-sans text-slate-200 selection:bg-cyan-500 selection:text-slate-950">
+    <div className="vibe-container relative min-h-screen overflow-hidden bg-slate-950 font-sans text-slate-100 selection:bg-cyan-500 selection:text-slate-950">
       {/* Dynamic Background FX */}
       <div className="scanline-overlay pointer-events-none absolute inset-0 z-10 opacity-30" />
       <div className="glow-orb pointer-events-none absolute -left-40 -top-40 h-96 w-96 rounded-full bg-cyan-600/20 blur-3xl" />
@@ -47,7 +47,7 @@ export default function EbayOps() {
       <div className="absolute right-6 top-6 z-50">
         <a
           href="#rates"
-          className="rounded-xl border border-cyan-500/30 bg-cyan-950/40 px-5 py-2 font-mono text-xs font-semibold uppercase tracking-wider text-cyan-300 backdrop-blur-md transition-all hover:bg-cyan-900/50 hover:text-white"
+          className="rounded-xl border border-cyan-500/30 bg-cyan-950/40 px-5 py-2 font-mono text-xs font-semibold uppercase tracking-wider text-cyan-200 backdrop-blur-md transition-all hover:bg-cyan-900/50 hover:text-white"
         >
           Hourly Rates
         </a>
@@ -58,7 +58,7 @@ export default function EbayOps() {
         {/* HERO SECTION */}
         <header className="grid grid-cols-1 items-center gap-10 md:grid-cols-12">
           <div className="space-y-6 text-center md:col-span-8 md:text-left">
-            <div className="glow-border inline-flex items-center gap-2 rounded-full border border-cyan-500/30 bg-cyan-950/40 px-3.5 py-1.5 font-mono text-xs uppercase tracking-widest text-cyan-400 backdrop-blur-md">
+            <div className="glow-border inline-flex items-center gap-2 rounded-full border border-cyan-500/30 bg-cyan-950/40 px-3.5 py-1.5 font-mono text-xs uppercase tracking-widest text-cyan-300 backdrop-blur-md">
               <span className="h-2 w-2 animate-ping rounded-full bg-cyan-400" />
               Hybrid Webcraft • eBay Operations &amp; SEO
             </div>
@@ -70,7 +70,7 @@ export default function EbayOps() {
               </span>
             </h1>
 
-            <p className="max-w-2xl text-lg font-light leading-relaxed text-slate-300 md:text-xl">
+            <p className="max-w-2xl text-lg font-normal leading-relaxed text-slate-200 md:text-xl">
               Professional product photos, SEO‑optimized titles, clean descriptions,
               and modern templates — powered by Adobe CC, Microsoft 365, and my
               veteran OfficeOps workflow.
@@ -87,7 +87,7 @@ export default function EbayOps() {
 
               <button
                 onClick={handleCopyLink}
-                className="rounded-xl border border-slate-700 bg-slate-900/80 px-6 py-3.5 font-mono text-xs uppercase tracking-wider text-slate-300 backdrop-blur-md transition-all duration-200 hover:bg-slate-800 hover:text-white"
+                className="rounded-xl border border-slate-700 bg-slate-900/80 px-6 py-3.5 font-mono text-xs uppercase tracking-wider text-slate-200 backdrop-blur-md transition-all duration-200 hover:bg-slate-800 hover:text-white"
               >
                 {copied ? "Link Copied! ✓" : "Copy Profile Link 🔗"}
               </button>
@@ -108,7 +108,7 @@ export default function EbayOps() {
                   alt="Brett at the beach"
                   className="h-48 w-48 rounded-2xl border border-slate-800 object-cover filter contrast-105"
                 />
-                <div className="w-full truncate rounded-xl border border-slate-800 bg-slate-950/80 px-3 py-1.5 text-center font-mono text-[11px] text-cyan-400">
+                <div className="w-full truncate rounded-xl border border-slate-800 bg-slate-950/80 px-3 py-1.5 text-center font-mono text-[11px] text-cyan-300">
                   ⚡ {terminalText}
                 </div>
               </div>
@@ -122,18 +122,18 @@ export default function EbayOps() {
             <h2 className="text-3xl font-bold text-white">
               Experience That Actually Matters
             </h2>
-            <p className="font-mono text-xs text-amber-400 uppercase tracking-widest">
+            <p className="font-mono text-xs text-amber-300 uppercase tracking-widest font-medium">
               Listing on eBay Since 2012
             </p>
           </div>
-          <p className="mx-auto max-w-3xl text-center leading-relaxed text-slate-300 font-light">
+          <p className="mx-auto max-w-3xl text-center leading-relaxed text-slate-200 font-normal">
             I&apos;ve been working with eBay listings since 2012 — back when
             mobile optimization didn&apos;t even exist. I&apos;ve watched the
             platform evolve, and today I use Adobe CC, Microsoft 365, and my
             OfficeOps workflow to bring listings up to modern standards: clean
             photos, SEO‑rich titles, and mobile‑safe formatting.
           </p>
-          <HackerBuddyBottom />
+         
         </section>
 
         {/* BEFORE / AFTER GALLERY */}
@@ -142,7 +142,7 @@ export default function EbayOps() {
             <h2 className="text-3xl font-bold tracking-wide text-white">
               Before &amp; After: Real Listing Transformations
             </h2>
-            <p className="font-mono text-sm text-slate-400">
+            <p className="font-mono text-sm text-slate-300">
               Every seller knows the pain: cluttered images, dark shots, inconsistent formatting.
             </p>
           </div>
@@ -158,7 +158,7 @@ export default function EbayOps() {
                 alt="Before Eggs"
                 className="h-40 w-full rounded-lg object-cover shadow-lg shadow-black/40"
               />
-              <div className="absolute bottom-6 right-6 z-10 rounded-md border border-green-900/50 bg-emerald-950/90 px-2 py-0.5 text-xs font-mono text-emerald-300">
+              <div className="absolute bottom-6 right-6 z-10 rounded-md border border-green-900/50 bg-emerald-950/90 px-2 py-0.5 text-xs font-mono text-emerald-200">
                 After
               </div>
               <img
@@ -178,7 +178,7 @@ export default function EbayOps() {
                 alt="Before Phones"
                 className="h-40 w-full rounded-lg object-cover shadow-lg shadow-black/40"
               />
-              <div className="absolute bottom-6 right-6 z-10 rounded-md border border-green-900/50 bg-emerald-950/90 px-2 py-0.5 text-xs font-mono text-emerald-300">
+              <div className="absolute bottom-6 right-6 z-10 rounded-md border border-green-900/50 bg-emerald-950/90 px-2 py-0.5 text-xs font-mono text-emerald-200">
                 After
               </div>
               <img
@@ -198,7 +198,7 @@ export default function EbayOps() {
                 alt="Before Boots"
                 className="h-40 w-full rounded-lg object-cover shadow-lg shadow-black/40"
               />
-              <div className="absolute bottom-6 right-6 z-10 rounded-md border border-green-900/50 bg-emerald-950/90 px-2 py-0.5 text-xs font-mono text-emerald-300">
+              <div className="absolute bottom-6 right-6 z-10 rounded-md border border-green-900/50 bg-emerald-950/90 px-2 py-0.5 text-xs font-mono text-emerald-200">
                 After
               </div>
               <img
@@ -218,7 +218,7 @@ export default function EbayOps() {
                 alt="Before Screwdriver"
                 className="h-40 w-full rounded-lg object-cover shadow-lg shadow-black/40"
               />
-              <div className="absolute bottom-6 right-6 z-10 rounded-md border border-green-900/50 bg-emerald-950/90 px-2 py-0.5 text-xs font-mono text-emerald-300">
+              <div className="absolute bottom-6 right-6 z-10 rounded-md border border-green-900/50 bg-emerald-950/90 px-2 py-0.5 text-xs font-mono text-emerald-200">
                 After
               </div>
               <img
@@ -238,7 +238,7 @@ export default function EbayOps() {
                 alt="Before Swimwear"
                 className="h-40 w-full rounded-lg object-cover shadow-lg shadow-black/40"
               />
-              <div className="absolute bottom-6 right-6 z-10 rounded-md border border-green-900/50 bg-emerald-950/90 px-2 py-0.5 text-xs font-mono text-emerald-300">
+              <div className="absolute bottom-6 right-6 z-10 rounded-md border border-green-900/50 bg-emerald-950/90 px-2 py-0.5 text-xs font-mono text-emerald-200">
                 After
               </div>
               <img
@@ -256,17 +256,17 @@ export default function EbayOps() {
             <h2 className="text-3xl font-bold tracking-wide text-white">
               Comprehensive eBay Services
             </h2>
-            <p className="font-mono text-sm text-slate-400">
+            <p className="font-mono text-sm text-slate-300">
               End-to-end optimization for your store and inventory
             </p>
           </div>
 
           <div className="grid gap-6 md:grid-cols-2">
             <div className="glass-card space-y-3 rounded-2xl border border-slate-800 bg-slate-900/50 p-6">
-              <h3 className="text-xl font-bold text-cyan-400">
+              <h3 className="text-xl font-bold text-cyan-300">
                 Listing Optimization
               </h3>
-              <ul className="space-y-2 text-sm font-light text-slate-300">
+              <ul className="space-y-2 text-sm font-normal text-slate-200">
                 <li className="flex items-center gap-2"><span className="text-cyan-400">✓</span> SEO‑driven titles</li>
                 <li className="flex items-center gap-2"><span className="text-cyan-400">✓</span> Keyword‑rich descriptions</li>
                 <li className="flex items-center gap-2"><span className="text-cyan-400">✓</span> Category + item specifics cleanup</li>
@@ -275,10 +275,10 @@ export default function EbayOps() {
             </div>
 
             <div className="glass-card space-y-3 rounded-2xl border border-slate-800 bg-slate-900/50 p-6">
-              <h3 className="text-xl font-bold text-amber-400">
+              <h3 className="text-xl font-bold text-amber-300">
                 Photo Enhancement
               </h3>
-              <ul className="space-y-2 text-sm font-light text-slate-300">
+              <ul className="space-y-2 text-sm font-normal text-slate-200">
                 <li className="flex items-center gap-2"><span className="text-amber-400">✓</span> Clean white backgrounds</li>
                 <li className="flex items-center gap-2"><span className="text-amber-400">✓</span> Lighting + color correction</li>
                 <li className="flex items-center gap-2"><span className="text-amber-400">✓</span> Multi‑image layout cards</li>
@@ -287,10 +287,10 @@ export default function EbayOps() {
             </div>
 
             <div className="glass-card space-y-3 rounded-2xl border border-slate-800 bg-slate-900/50 p-6">
-              <h3 className="text-xl font-bold text-violet-400">
+              <h3 className="text-xl font-bold text-violet-300">
                 Store Cleanup
               </h3>
-              <ul className="space-y-2 text-sm font-light text-slate-300">
+              <ul className="space-y-2 text-sm font-normal text-slate-200">
                 <li className="flex items-center gap-2"><span className="text-violet-400">✓</span> Bulk edits</li>
                 <li className="flex items-center gap-2"><span className="text-violet-400">✓</span> Template unification</li>
                 <li className="flex items-center gap-2"><span className="text-violet-400">✓</span> Policy + shipping consistency</li>
@@ -299,10 +299,10 @@ export default function EbayOps() {
             </div>
 
             <div className="glass-card space-y-3 rounded-2xl border border-slate-800 bg-slate-900/50 p-6">
-              <h3 className="text-xl font-bold text-emerald-400">
+              <h3 className="text-xl font-bold text-emerald-300">
                 Full Management
               </h3>
-              <ul className="space-y-2 text-sm font-light text-slate-300">
+              <ul className="space-y-2 text-sm font-normal text-slate-200">
                 <li className="flex items-center gap-2"><span className="text-emerald-400">✓</span> Daily listing</li>
                 <li className="flex items-center gap-2"><span className="text-emerald-400">✓</span> Inventory updates</li>
                 <li className="flex items-center gap-2"><span className="text-emerald-400">✓</span> Message handling</li>
@@ -312,55 +312,58 @@ export default function EbayOps() {
           </div>
         </section>
 
-        {/* HOURLY RATES CARDS */}
+        {/* HOURLY RATES & NEGOTIABLE PRICING CARDS */}
         <section id="rates" className="space-y-8 border-t border-slate-800/80 pt-12">
           <div className="text-center space-y-3">
             <h2 className="text-3xl font-extrabold tracking-tight text-white md:text-4xl">
-              Transparent Hourly Pricing
+              Flexible &amp; Friendly Pricing
             </h2>
-            <p className="mx-auto max-w-xl text-sm font-mono text-slate-400">
-              Clear rates backed by veteran reliability. No mystery fees.
+            <p className="mx-auto max-w-2xl text-sm font-normal text-slate-200">
+              Prices are completely negotiable and tailored to your project. Behind these numbers is custom-built React and dynamic code keeping everything running smoothly and transparently! Let&apos;s talk and find a fair rate that fits your budget.
             </p>
           </div>
 
           <div className="grid gap-6 md:grid-cols-2 max-w-4xl mx-auto">
             <div className="glass-card space-y-4 rounded-2xl border border-slate-800 bg-slate-900/50 p-6 text-center">
-              <div className="font-mono text-xs uppercase tracking-wider text-cyan-400">
+              <div className="font-mono text-xs uppercase tracking-wider text-cyan-300 font-semibold">
                 Remote Work Preferred
               </div>
               <h3 className="text-xl font-bold text-slate-100">
                 Standard Office Work
               </h3>
-              <div className="space-y-1">
-                <p className="text-xs text-slate-400 line-through">$45.00/hr</p>
-                <p className="text-3xl font-extrabold text-cyan-300">$38.25<span className="text-xs text-slate-400">/hr</span></p>
-                <span className="inline-block rounded-full bg-cyan-950/80 px-2.5 py-0.5 text-[10px] font-mono font-semibold text-cyan-400 border border-cyan-500/30">
-                  15% SPECIAL DISCOUNT
-                </span>
-              </div>
-              <p className="text-xs text-slate-400">
-                Remote optimization, digital file organization, and structured management
+              <p className="text-sm font-normal text-slate-200 pt-2">
+                Remote optimization, digital file organization, structured management, and custom solutions tailored to your workflow.
               </p>
             </div>
 
             <div className="glass-card glow-border relative space-y-4 rounded-2xl border border-cyan-500/50 bg-slate-900/90 p-6 text-center shadow-[0_0_30px_rgba(6,182,212,0.15)]">
-              <div className="font-mono text-xs uppercase tracking-wider text-amber-400">
+              <div className="font-mono text-xs uppercase tracking-wider text-amber-300 font-semibold">
                 Travel Available Upon Request
               </div>
               <h3 className="text-xl font-bold text-white">
                 On-Site Office Help
               </h3>
-              <div className="space-y-1">
-                <p className="text-xs text-slate-400 line-through">$55.00/hr</p>
-                <p className="text-3xl font-extrabold text-amber-300">$46.75<span className="text-xs text-slate-400">/hr</span></p>
-                <span className="inline-block rounded-full bg-amber-950/80 px-2.5 py-0.5 text-[10px] font-mono font-semibold text-amber-400 border border-amber-500/30">
-                  15% SPECIAL DISCOUNT
-                </span>
-              </div>
-              <p className="text-xs text-slate-300">
-                In-person staging, equipment setup, and hands-on inventory workflows
+              <p className="text-sm font-normal text-slate-200 pt-2">
+                In-person staging, equipment setup, hands-on inventory workflows, and personalized team assistance.
               </p>
             </div>
+          </div>
+
+          {/* Price Guidelines Link with Updated 5s Pulse Animations */}
+          <div className="flex flex-col items-center justify-center pt-6 space-y-2">
+            <a href="https://contact.mybabb.com" className="flex items-center gap-3">
+              <span className="text-cyan-400 text-xl font-bold inline-block animate-[pulse_5s_ease-in-out_infinite]">
+                👉
+              </span>
+              <div
+                className="rounded-xl border border-cyan-500/40 bg-cyan-950/60 px-6 py-3 font-mono text-sm font-semibold text-cyan-200 backdrop-blur-md shadow-[0_0_20px_rgba(34,211,238,0.2)] transition-all duration-300 hover:bg-cyan-900 hover:text-white hover:scale-105"
+              >
+               💲 Friendly Price Negotiations
+              </div>
+              <span className="text-cyan-400 text-xl font-bold inline-block animate-[pulse_5s_ease-in-out_infinite]">
+                👈
+              </span>
+            </a>
           </div>
         </section>
 
@@ -371,7 +374,7 @@ export default function EbayOps() {
               <h3 className="text-2xl font-extrabold text-white">
                 Ready to upgrade your listings?
               </h3>
-              <p className="text-slate-300 font-light">
+              <p className="text-slate-200 font-normal">
                 Let&apos;s fix your store and get your products moving. Send me the file and I&apos;ll give you an estimated time before I start.
               </p>
             </div>
@@ -390,7 +393,7 @@ export default function EbayOps() {
             </div>
           </div>
         </section>
-
+ <HackerBuddyBottom />
       </main>
     </div>
   );

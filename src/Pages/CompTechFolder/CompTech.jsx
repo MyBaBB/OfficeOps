@@ -189,7 +189,7 @@ function ComputerTechPage() {
           </div>
         </section>
 
-        <HackerBuddyBottom />
+        
 
         {/* HOURLY RATES */}
         <section id="rates" className="space-y-8 border-t border-slate-800/80 pt-12">
@@ -284,7 +284,7 @@ function ComputerTechPage() {
             </a>
           </div>
         </footer>
-
+            <HackerBuddyBottom />
       </main>
     </div>
   );

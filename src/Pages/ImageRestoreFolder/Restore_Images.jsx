@@ -53,18 +53,28 @@ export default function ImageOps() {
   };
 
   return (
-    <div className="vibe-container relative min-h-screen overflow-hidden bg-slate-950 font-sans text-slate-200 selection:bg-cyan-500 selection:text-slate-950">
+    <div className="vibe-container relative min-h-screen overflow-hidden bg-slate-950 font-sans text-slate-100 selection:bg-cyan-500 selection:text-slate-950">
       {/* Dynamic Background FX */}
       <div className="scanline-overlay pointer-events-none absolute inset-0 z-10 opacity-30" />
       <div className="glow-orb pointer-events-none absolute -left-40 -top-40 h-96 w-96 rounded-full bg-cyan-600/20 blur-3xl" />
       <div className="glow-orb pointer-events-none absolute -right-40 top-1/2 h-96 w-96 rounded-full bg-amber-500/15 blur-3xl" />
+
+      {/* FLOATING HOURLY RATES BUTTON */}
+      <div className="absolute right-6 top-6 z-50">
+        <a
+          href="#rates"
+          className="rounded-xl border border-cyan-500/30 bg-cyan-950/40 px-5 py-2 font-mono text-xs font-semibold uppercase tracking-wider text-cyan-200 backdrop-blur-md transition-all hover:bg-cyan-900/50 hover:text-white"
+        >
+          Hourly Rates
+        </a>
+      </div>
 
       <main className="relative z-20 mx-auto max-w-6xl space-y-20 px-6 py-16 md:py-24">
         
         {/* HERO SECTION */}
         <header className="grid grid-cols-1 items-center gap-10 md:grid-cols-12">
           <div className="space-y-6 text-center md:col-span-8 md:text-left">
-            <div className="glow-border inline-flex items-center gap-2 rounded-full border border-cyan-500/30 bg-cyan-950/40 px-3.5 py-1.5 font-mono text-xs uppercase tracking-widest text-cyan-400 backdrop-blur-md">
+            <div className="glow-border inline-flex items-center gap-2 rounded-full border border-cyan-500/30 bg-cyan-950/40 px-3.5 py-1.5 font-mono text-xs uppercase tracking-widest text-cyan-300 backdrop-blur-md">
               <span className="h-2 w-2 animate-ping rounded-full bg-cyan-400" />
               Hybrid Webcraft • Professional Restoration &amp; Editing
             </div>
@@ -76,7 +86,7 @@ export default function ImageOps() {
               </span>
             </h1>
 
-            <p className="max-w-2xl text-lg font-light leading-relaxed text-slate-300 md:text-xl">
+            <p className="max-w-2xl text-lg font-normal leading-relaxed text-slate-200 md:text-xl">
               Professional image repair, color correction, object removal, and
               creative alterations — powered by Adobe CC, veteran AI toolsets,
               and meticulous manual craftsmanship.
@@ -93,7 +103,7 @@ export default function ImageOps() {
 
               <button
                 onClick={handleCopyLink}
-                className="rounded-xl border border-slate-700 bg-slate-900/80 px-6 py-3.5 font-mono text-xs uppercase tracking-wider text-slate-300 backdrop-blur-md transition-all duration-200 hover:bg-slate-800 hover:text-white"
+                className="rounded-xl border border-slate-700 bg-slate-900/80 px-6 py-3.5 font-mono text-xs uppercase tracking-wider text-slate-200 backdrop-blur-md transition-all duration-200 hover:bg-slate-800 hover:text-white"
               >
                 {copied ? "Link Copied! ✓" : "Copy Profile Link 🔗"}
               </button>
@@ -114,7 +124,7 @@ export default function ImageOps() {
                   alt="Brett at the beach"
                   className="h-48 w-48 rounded-2xl border border-slate-800 object-cover filter contrast-105"
                 />
-                <div className="w-full truncate rounded-xl border border-slate-800 bg-slate-950/80 px-3 py-1.5 text-center font-mono text-[11px] text-cyan-400">
+                <div className="w-full truncate rounded-xl border border-slate-800 bg-slate-950/80 px-3 py-1.5 text-center font-mono text-[11px] text-cyan-300">
                   ⚡ {terminalText}
                 </div>
               </div>
@@ -128,20 +138,17 @@ export default function ImageOps() {
             <h2 className="text-3xl font-bold text-white">
               Bring Your Photos Back to Life
             </h2>
-            <p className="font-mono text-xs text-amber-400 uppercase tracking-widest">
+            <p className="font-mono text-xs text-amber-300 uppercase tracking-widest font-medium">
               Adobe Master Suite &amp; Professional Workflows
             </p>
           </div>
-          <p className="mx-auto max-w-4xl text-center leading-relaxed text-slate-300 font-light">
+          <p className="mx-auto max-w-4xl text-center leading-relaxed text-slate-200 font-normal">
             Whether it&apos;s restoring old family photos, repairing physical damage,
             enhancing clarity, or creating artistic edits — I use Adobe
             Photoshop, Adobe Illustrator, and professional enhancement tools
             tailored to deliver clean, modern, high‑credibility results with
             properly sized and formatted files.
           </p>
-          <div className="pt-2 flex justify-center">
-            <HackerBuddyBottom />
-          </div>
         </section>
 
         {/* BEFORE / AFTER GALLERY */}
@@ -150,7 +157,7 @@ export default function ImageOps() {
             <h2 className="text-3xl font-bold tracking-wide text-white">
               Before &amp; After: Real Image Transformations
             </h2>
-            <p className="font-mono text-sm text-slate-400">
+            <p className="font-mono text-sm text-slate-300">
               From faded prints and physical damage to low‑quality scans and creative touch-ups.
             </p>
           </div>
@@ -173,7 +180,7 @@ export default function ImageOps() {
                   className="h-40 w-full rounded-lg object-cover shadow-lg shadow-black/40"
                 />
 
-                <div className="absolute bottom-6 right-6 z-10 rounded-md border border-green-900/50 bg-emerald-950/90 px-2 py-0.5 text-xs font-mono text-emerald-300">
+                <div className="absolute bottom-6 right-6 z-10 rounded-md border border-green-900/50 bg-emerald-950/90 px-2 py-0.5 text-xs font-mono text-emerald-200">
                   After
                 </div>
                 <img
@@ -192,17 +199,17 @@ export default function ImageOps() {
             <h2 className="text-3xl font-bold tracking-wide text-white">
               Restoration &amp; Editing Capabilities
             </h2>
-            <p className="font-mono text-sm text-slate-400">
+            <p className="font-mono text-sm text-slate-300">
               Specialized digital repair and enhancement solutions
             </p>
           </div>
 
           <div className="grid gap-6 md:grid-cols-2">
             <div className="glass-card space-y-3 rounded-2xl border border-slate-800 bg-slate-900/50 p-6">
-              <h3 className="text-xl font-bold text-cyan-400">
+              <h3 className="text-xl font-bold text-cyan-300">
                 Restoration
               </h3>
-              <ul className="space-y-2 text-sm font-light text-slate-300">
+              <ul className="space-y-2 text-sm font-normal text-slate-200">
                 <li className="flex items-center gap-2"><span className="text-cyan-400">✓</span> Scratch &amp; physical damage repair</li>
                 <li className="flex items-center gap-2"><span className="text-cyan-400">✓</span> Faded color restoration</li>
                 <li className="flex items-center gap-2"><span className="text-cyan-400">✓</span> Grain &amp; noise reduction</li>
@@ -211,10 +218,10 @@ export default function ImageOps() {
             </div>
 
             <div className="glass-card space-y-3 rounded-2xl border border-slate-800 bg-slate-900/50 p-6">
-              <h3 className="text-xl font-bold text-amber-400">
+              <h3 className="text-xl font-bold text-amber-300">
                 Editing &amp; Cleanup
               </h3>
-              <ul className="space-y-2 text-sm font-light text-slate-300">
+              <ul className="space-y-2 text-sm font-normal text-slate-200">
                 <li className="flex items-center gap-2"><span className="text-amber-400">✓</span> Unwanted object removal</li>
                 <li className="flex items-center gap-2"><span className="text-amber-400">✓</span> Background cleanup &amp; replacement</li>
                 <li className="flex items-center gap-2"><span className="text-amber-400">✓</span> Professional lighting &amp; color correction</li>
@@ -223,10 +230,10 @@ export default function ImageOps() {
             </div>
 
             <div className="glass-card space-y-3 rounded-2xl border border-slate-800 bg-slate-900/50 p-6">
-              <h3 className="text-xl font-bold text-violet-400">
+              <h3 className="text-xl font-bold text-violet-300">
                 Creative Alterations
               </h3>
-              <ul className="space-y-2 text-sm font-light text-slate-300">
+              <ul className="space-y-2 text-sm font-normal text-slate-200">
                 <li className="flex items-center gap-2"><span className="text-violet-400">✓</span> Custom artistic edits</li>
                 <li className="flex items-center gap-2"><span className="text-violet-400">✓</span> Cinematic color grading</li>
                 <li className="flex items-center gap-2"><span className="text-violet-400">✓</span> Stylized visual effects</li>
@@ -235,10 +242,10 @@ export default function ImageOps() {
             </div>
 
             <div className="glass-card space-y-3 rounded-2xl border border-slate-800 bg-slate-900/50 p-6">
-              <h3 className="text-xl font-bold text-emerald-400">
+              <h3 className="text-xl font-bold text-emerald-300">
                 Full Project Support
               </h3>
-              <ul className="space-y-2 text-sm font-light text-slate-300">
+              <ul className="space-y-2 text-sm font-normal text-slate-200">
                 <li className="flex items-center gap-2"><span className="text-emerald-400">✓</span> Efficient batch editing</li>
                 <li className="flex items-center gap-2"><span className="text-emerald-400">✓</span> Family photo album restoration</li>
                 <li className="flex items-center gap-2"><span className="text-emerald-400">✓</span> Print‑ready resolution formatting</li>
@@ -248,14 +255,70 @@ export default function ImageOps() {
           </div>
         </section>
 
+        {/* HOURLY RATES & NEGOTIABLE PRICING SECTION */}
+        <section id="rates" className="space-y-8 border-t border-slate-800/80 pt-12">
+          <div className="text-center space-y-3">
+            <h2 className="text-3xl font-extrabold tracking-tight text-white md:text-4xl">
+              Flexible &amp; Friendly Pricing
+            </h2>
+            <p className="mx-auto max-w-2xl text-sm font-normal text-slate-200">
+              Prices are completely negotiable and tailored to your project. Behind these numbers is custom-built React and dynamic code keeping everything running smoothly and transparently! Let&apos;s talk and find a fair rate that fits your budget.
+            </p>
+          </div>
+
+          <div className="grid gap-6 md:grid-cols-2 max-w-4xl mx-auto">
+            <div className="glass-card space-y-4 rounded-2xl border border-slate-800 bg-slate-900/50 p-6 text-center">
+              <div className="font-mono text-xs uppercase tracking-wider text-cyan-300 font-semibold">
+                Photo Restoration &amp; Retouching
+              </div>
+              <h3 className="text-xl font-bold text-slate-100">
+                Standard Restoration Work
+              </h3>
+              <p className="text-sm font-normal text-slate-200 pt-2">
+                Scratch repair, color correction, noise reduction, and photo touch-ups tailored to your images.
+              </p>
+            </div>
+
+            <div className="glass-card glow-border relative space-y-4 rounded-2xl border border-cyan-500/50 bg-slate-900/90 p-6 text-center shadow-[0_0_30px_rgba(6,182,212,0.15)]">
+              <div className="font-mono text-xs uppercase tracking-wider text-amber-300 font-semibold">
+                Advanced Composites &amp; Edits
+              </div>
+              <h3 className="text-xl font-bold text-white">
+                Creative Alterations &amp; Batch Projects
+              </h3>
+              <p className="text-sm font-normal text-slate-200 pt-2">
+                Object removal, background swaps, cinematic color grading, and multi-image family album restorations.
+              </p>
+            </div>
+          </div>
+
+          {/* Price Guidelines Link with Updated 5s Pulse Animations */}
+          <div className="flex flex-col items-center justify-center pt-6 space-y-2">
+            <div className="flex items-center gap-3">
+              <span className="text-cyan-400 text-xl font-bold inline-block animate-[pulse_5s_ease-in-out_infinite]">
+                👉
+              </span>
+              <div
+                className="rounded-xl border border-cyan-500/40 bg-cyan-950/60 px-6 py-3 font-mono text-sm font-semibold text-cyan-200 backdrop-blur-md shadow-[0_0_20px_rgba(34,211,238,0.2)] transition-all duration-300 hover:bg-cyan-900 hover:text-white hover:scale-105"
+              >
+               💲 Friendly Price Negotiations  
+              </div>
+              <span className="text-cyan-400 text-xl font-bold inline-block animate-[pulse_5s_ease-in-out_infinite]">
+                👈
+              </span>
+            </div>
+           
+          </div>
+        </section>
+
         {/* CTA FOOTER */}
-        <section className="rounded-3xl border border-cyan-500/30 bg-slate-900/60 p-8 backdrop-blur-xl md:p-12">
-          <div className="flex flex-col gap-6 md:flex-row md:items-center md:justify-between">
+        <section className="rounded-3xl border-2 border-cyan-500/30 bg-slate-900/60 p-8 backdrop-blur-xl md:p-12  ">
+          <div className="flex flex-col gap-6 md:flex-row md:items-center md:justify-between ">
             <div className="space-y-3">
               <h3 className="text-2xl font-extrabold text-white">
                 Ready to restore or enhance your images?
               </h3>
-              <p className="text-slate-300 font-light">
+              <p className="text-slate-200 font-normal">
                 Send me your files and I’ll give you an estimated turnaround time before I start.
               </p>
             </div>
@@ -275,6 +338,7 @@ export default function ImageOps() {
           </div>
         </section>
 
+        <HackerBuddyBottom />
       </main>
     </div>
   );
