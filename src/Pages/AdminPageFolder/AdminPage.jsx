@@ -21,13 +21,14 @@ export default function Admin() {
       name: "Computer-Technician",
       url: "https://officehelper.brainbuddys.com/comptech",
     },
-    {
-      name: "Open-Source-Coder",
-      url: "https://officehelper.brainbuddys.com/open_source",
-    },
+   
     {
       name: "Personal_Assistant",
       url: "https://officehelper.brainbuddys.com/personal_assistant",
+    },
+    {
+      name: "Vibe_Coder",
+      url: "https://officehelper.brainbuddys.com/vibecoder",
     },
   ];
 

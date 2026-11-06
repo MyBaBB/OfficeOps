@@ -6,8 +6,9 @@ import ImageOps from "./Pages/ImageRestoreFolder/Restore_Images";
 import "./App.css";
 import Zenith from "./Pages/Zenith";
 import CompTech from "./Pages/CompTechFolder/CompTech";
-import OpenSource from "./Pages/OpenSourcePageFolder/OpenSourcePage";
-import PersonalAssistant from "./Pages/PersonalAssistantFolder/PersonalAssistant"
+ 
+import PersonalAssistant from "./Pages/PersonalAssistantFolder/PersonalAssistant";
+import VibeCoder from "./Pages/VibeCoderFolder/VibeCoder";
 const App = () => {
   return (
     <main className="h-screen w-screen">
@@ -20,8 +21,9 @@ const App = () => {
           <Route path="/admin" element={<Admin />} />
           <Route path="/comptech" element={<CompTech />} />
           <Route path="/image_restore" element={<ImageOps />} />
-          <Route path="/open_source" element={<OpenSource />} />
-          <Route path="/personal_assistant" element={< PersonalAssistant />} />
+         
+          <Route path="/personal_assistant" element={<PersonalAssistant />} />
+          <Route path="/vibecoder" element={<VibeCoder />} />
         </Routes>
       </Router>
     </main>
