@@ -76,8 +76,8 @@ const VibeCoder = () => {
             </div>
           </div>
 
-          {/* Profile Picture Card */}
-          <div className="flex justify-center md:col-span-4">
+          {/* Profile Picture Card & Fancy About Us Button */}
+          <div className="flex flex-col items-center justify-center space-y-4 md:col-span-4">
             <div
               className="group relative cursor-pointer"
               onClick={cycleTerminal}
@@ -95,6 +95,18 @@ const VibeCoder = () => {
                 </div>
               </div>
             </div>
+
+            {/* Fancy About Us Button */}
+            <a
+              href="https://about.us.mybabb.com"
+              className="group relative inline-flex items-center gap-2 overflow-hidden rounded-xl p-[1px] font-mono text-xs font-bold uppercase tracking-wider transition-all duration-300 hover:scale-105 active:scale-95 shadow-[0_0_20px_rgba(34,211,238,0.15)]"
+            >
+              <span className="absolute inset-[-1000%] animate-[spin_4s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#22d3ee_0%,#a855f7_50%,#22d3ee_100%)] opacity-70 group-hover:opacity-100" />
+              <span className="relative flex items-center gap-2 rounded-[11px] bg-slate-950 px-6 py-2.5 text-cyan-200 transition-colors duration-300 group-hover:bg-slate-900 group-hover:text-white">
+                <span className="h-1.5 w-1.5 rounded-full bg-amber-400 shadow-[0_0_8px_#fbbf24]" />
+                About Us &rarr;
+              </span>
+            </a>
           </div>
         </header>
 
