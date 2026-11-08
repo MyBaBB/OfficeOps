@@ -156,6 +156,31 @@ const VibeCoder = () => {
             </div>
           </div>
         </section>
+        
+       
+        {/* Footer / Contact Terminal */}
+        <footer
+          id="contact"
+          className="space-y-6 rounded-3xl border border-slate-800 bg-slate-900/60 p-8 text-center backdrop-blur-xl md:p-12"
+        >
+          <h2 className="text-3xl font-extrabold text-white">
+            Ready to Put AI to Work the Right Way?
+          </h2>
+          <p className="mx-auto max-w-xl text-sm font-normal text-slate-200">
+            Skip the amateur prompt headaches and the bloated agency timelines.
+            Get custom web architecture built by an experienced hand.
+          </p>
+          <div className="pt-2">
+            <a
+              href="https://contact.mybabb.com"
+              className="inline-block rounded-xl bg-gradient-to-r from-amber-400 to-cyan-400 px-10 py-4 font-mono text-sm font-bold text-slate-950 shadow-[0_0_30px_rgba(251,191,36,0.3)] transition-all duration-300 hover:scale-105 hover:from-amber-300 hover:to-cyan-300"
+            >
+              Initiate Contact &rarr;
+            </a>
+          </div>
+        </footer>
+        
+        
 <section id="rates" className="space-y-6 border-t border-slate-800/80 pt-12 text-center">
           <a href="https://about.us.mybabb.com/pricepackages"
              className="group border-l-2 border-cyan-400 pl-4 text-left inline-block">
@@ -182,28 +207,7 @@ const VibeCoder = () => {
           </div>
         </section>
 
-       
-        {/* Footer / Contact Terminal */}
-        <footer
-          id="contact"
-          className="space-y-6 rounded-3xl border border-slate-800 bg-slate-900/60 p-8 text-center backdrop-blur-xl md:p-12"
-        >
-          <h2 className="text-3xl font-extrabold text-white">
-            Ready to Put AI to Work the Right Way?
-          </h2>
-          <p className="mx-auto max-w-xl text-sm font-normal text-slate-200">
-            Skip the amateur prompt headaches and the bloated agency timelines.
-            Get custom web architecture built by an experienced hand.
-          </p>
-          <div className="pt-2">
-            <a
-              href="https://contact.mybabb.com"
-              className="inline-block rounded-xl bg-gradient-to-r from-amber-400 to-cyan-400 px-10 py-4 font-mono text-sm font-bold text-slate-950 shadow-[0_0_30px_rgba(251,191,36,0.3)] transition-all duration-300 hover:scale-105 hover:from-amber-300 hover:to-cyan-300"
-            >
-              Initiate Contact &rarr;
-            </a>
-          </div>
-        </footer>
+        
          {/* HACKER BUDDY BOTTOM */}
         <HackerBuddyBottom />
       </main>
